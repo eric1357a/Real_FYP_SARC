@@ -48,7 +48,14 @@
           tel += "<nav class='mdl-navigation'><a class='mdl-navigation__link' href='"
           text += "<img src='https://maps.googleapis.com/maps/api/staticmap?markers=" + data.restaurant_list[0].lat + "," + data.restaurant_list[0].lon + "&size=460x250&zoom=16&key=AIzaSyDJLN_-QKHyenSgYthFaODRAfqxLGHAXCg' alt=" + data.restaurant_list[0].name + " class='img-responsive' width='100%'>";
           text += "</a><br>";
-          
+          text += "<table class='mdl-data-table mdl-js-data-table mdl-shadow--2dp' width='400'>";
+          text += "<thead><tr>" +
+            "<th class='mdl-data-table__cell--non-numeric'>Restaurant Info</th></tr>" +
+            "</thead><tody>";
+          text += "<tr><td class='mdl-data-table__cell--non-numeric'>Address: " + data.restaurant_list[0].address+"</td></tr>";
+          text += "<tr><td class='mdl-data-table__cell--non-numeric'>Price Range: " + data.restaurant_list[0].price+"</td></tr>";
+          text += "<tr><td class='mdl-data-table__cell--non-numeric'>Telephone: " + data.restaurant_list[0].telephone+"</td></tr>";
+          text += "</tbody></table>";
           document.getElementsByClassName("mdl-layout-title")[0].insertAdjacentHTML('beforeend', data.restaurant_list[0].name);
           document.getElementsByClassName("mdl-layout__drawer")[0].insertAdjacentHTML('beforeend',tel);
         })
@@ -59,7 +66,7 @@
           text += "<table class='mdl-data-table mdl-js-data-table mdl-shadow--2dp' width='400'>";
           text += "<thead><tr>" +
             "<th class='mdl-data-table__cell--non-numeric'>Comments</th>" +
-            "</thead><tody>";
+            "</thead><tbody>";
           console.log(data);
           var Quality = 0;
           var Price = 0;
@@ -154,7 +161,8 @@
           alert("Data: " + data + "Status: " + status);
         });
         document.getElementById('comments').value = '';
-        window.location.reload(true);
+        setTimeout(function() { location.reload() },1500);
+        // window.location.reload(true);
       });
     }());
 </script>

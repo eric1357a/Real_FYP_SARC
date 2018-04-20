@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <link rel="stylesheet" href="./style/style2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <style>
     .demo-card-wide>.mdl-card__title {
@@ -20,6 +21,7 @@
 
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title"></span>
         <div class="mdl-layout-spacer"></div>
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                         mdl-textfield--floating-label mdl-textfield--align-right">
@@ -38,7 +40,8 @@
           var string = document.getElementById('fixed-header-drawer-exp').value;
           window.location.href = "./SearchByName.html?name=" + string;
         }
-      });</script>
+      });
+      </script>
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">Find By Region</span>
       <hr>
@@ -57,6 +60,7 @@
     <script>
       var request = new XMLHttpRequest();
       var parameterValue = decodeURIComponent(window.location.search.match(/(\?|&)region\=([^&]*)/)[2]);
+      document.getElementsByClassName("mdl-layout-title")[0].insertAdjacentHTML('beforeend', parameterValue);
       console.log(parameterValue);
       request.open('GET', './APICalling/GetRegionRestaurant.php?region='+parameterValue, true);
 

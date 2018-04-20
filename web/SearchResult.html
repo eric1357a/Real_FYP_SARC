@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <style>
     .demo-card-wide>.mdl-card__title {
-      color: rgb(0, 0, 0);
+      color: rgb(233, 233, 233);
       height: 130px;
-      background: url('../src/bg.jpg') center / cover;
+      background: url('./src/bg.jpg') center / cover;
     }
   </style>
 </head>
@@ -31,9 +31,7 @@
     <span class="mdl-layout-title">Title</span>
 
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Dashboard</a>
-      <a class="mdl-navigation__link" href="">Login</a>
-      <a class="mdl-navigation__link" href="">Logout</a>
+
     </nav>
 
   </div>
@@ -41,42 +39,46 @@
   <main class="mdl-layout__content">
     <script>
       var request = new XMLHttpRequest();
-      request.open('GET', './APICalling/GetRestaurant.php', true);
+      var parameterValue = decodeURIComponent(window.location.search.match(/(\?|&)type\=([^&]*)/)[2]);
+      var parameterValue2 = decodeURIComponent(window.location.search.match(/(\?|&)price\=([^&]*)/)[2]);
+
+      console.log("type: "+parameterValue);
+      console.log("price: "+parameterValue2);
+      request.open('GET', './APICalling/getSearchResult.php?price='+parameterValue2+'&type='+parameterValue, true);
+     
 
       request.onload = function () {
-        // begin accessing JSON data here
         var data = JSON.parse(this.response);
         var text = "";
         console.log(data);
 
-        for (var i = 0; i < data.restaturant_list.length; i++) {
+        for (var i = 0; i < data.restaurant_list.length; i++) {
           text += "<div class='demo-card-wide mdl-card mdl-shadow--2dp'><div class='mdl-card__title'><h2 class='mdl-card__title-text'>";
-          text += data.restaturant_list[i].name + "</h2> </div> <div class='mdl-card__supporting-text'>";
-          text += data.restaturant_list[i].simp_type + "</div> <div class='mdl-card__actions mdl-card--border'> <a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='../FYP/details.php?id="+data.restaturant_list[i].id+"'>"
+          text += data.restaurant_list[i].name + "</h2> </div> <div class='mdl-card__supporting-text'>";
+          text += data.restaurant_list[i].simp_type + "</div> <div class='mdl-card__actions mdl-card--border'> <a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='../FYP/details.html?id="+data.restaurant_list[i].id+"'>"
           text += "More </a></div ><div class='mdl-card__menu'>" +
             "<button class='mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect'>" +
             "<i class='material-icons'>share</i></button></div></div>";
-          var url = "url(" + data.restaturant_list[i].imgSrc + ") center / cover";
-          console.log(url);
-          
-
-
-
-          // text += "<tr>";
-          // text += "<td class='mdl-data-table__cell--non-numeric'>" + data.restaturant_list[i].id + "</td>";
-          // text += "<td>" + data.restaturant_list[i].name + "</td>";
-          // text += "<td>" + data.restaturant_list[i].description + "</td>";
-          // text += "</tr>";
-
         }
-
-        console.log(text);
+                
         document.getElementById("cards").insertAdjacentHTML('beforeend', text);
-
+      
       }
-
       request.send();
-      document.getElementsByClassName('.demo-card-wide>.mdl-card__title')[0].style.background = url;
+      request = new XMLHttpRequest();
+      request.open('GET', './APICalling/GetRegion.php', true);
+
+      request.onload = function () {
+        var region = JSON.parse(this.response)
+        var text = "";
+        for (var i = 0; i < region.region_list.length; i++) {
+        text += "<a class='mdl-navigation__link' href='../FYP/searchbyRegion.html?region="+region.region_list[i].region+"'>"+region.region_list[i].region+"</a>";
+        console.log("region "+region.region_list[0].region);
+      }
+      document.getElementsByClassName('mdl-navigation')[0].insertAdjacentHTML('beforeend',text);
+      }
+      
+      request.send();
     </script>
 
     <body>

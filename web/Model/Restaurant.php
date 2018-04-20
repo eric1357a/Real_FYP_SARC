@@ -61,6 +61,28 @@
 
             return $stmt;
 		}
+		function getResType() {
+			
+			$query = "SELECT DISTINCT simp_type FROM " . $this->table_name;
+			// prepare query statement
+            $stmt = $this->conn->prepare($query);
+
+            // execute query
+            $stmt->execute();
+
+            return $stmt;
+		}
+		function getPriceType() {
+			$query = "SELECT DISTINCT price FROM " . $this->table_name ." ORDER BY price DESC";
+			// prepare query statement
+            $stmt = $this->conn->prepare($query);
+
+            // execute query
+            $stmt->execute();
+
+            return $stmt;
+		
+		}
 		function getRegionRestaurant($keywords) {
 			
     		// query to read single record
@@ -74,6 +96,28 @@
 			
     		// bind id of product to be updated
     		$stmt->bindParam(1, $keywords);
+ 
+    		// execute query
+    		$stmt->execute();
+			return $stmt;
+ 
+		}
+		function getSearchRestaurant($keywords,$keywords2) {
+			
+    		// query to read single record
+    		$query = "SELECT * FROM " . $this->table_name . " WHERE simp_type = ? AND price = ?";
+ 
+    		// prepare query statement
+    		$stmt = $this->conn->prepare( $query );
+			
+			$keywords=htmlspecialchars(strip_tags($keywords));
+			$keywords2=htmlspecialchars(strip_tags($keywords2));
+			//$keywords = "%{$keywords}%";
+			//$keywords2 = "%{$keywords2}%";
+			
+    		// bind id of product to be updated
+    		$stmt->bindParam(1, $keywords);
+			$stmt->bindParam(2, $keywords2);
  
     		// execute query
     		$stmt->execute();

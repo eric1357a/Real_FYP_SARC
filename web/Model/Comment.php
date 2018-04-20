@@ -79,7 +79,7 @@
 	FOODSTYLE_OPTIONS, LOCATIONGENERAL, RESTAURANTGENERAL, 
 	RESTAURANTMISCELLANEOUS, RESTAURANTPRICES, SERVICEGENERAL, 
 	res_id, post_date) VALUES (NULL, '" . $this->content . "', NULL, NULL, NULL, NULL, NULL, 
-	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '" . $this->res_id . "', '2018-04-20')";
+	NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '" . $this->res_id . "', '2018-04-21')";
  
     // prepare query
     $stmt = $this->conn->prepare($query);
