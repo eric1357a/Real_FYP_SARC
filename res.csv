@@ -1,0 +1,436 @@
+﻿id,name,address,price,type1,type2,type3,type4,region,avg_price,simp_type,Districts,lon,lat,telephone
+1,Olive ERA,"Lion Rise Mal Shop G1-2, 8 Muk Lun Street, Wong Tai Sin",$101-$200,Italian,International,Wine/Cigar,Seafood,Wong Tai Sin,300,Western,Wong Tai Sin,114.1968526,22.3400919,7914-4416
+2,ItaMoMo Cafe,"Shop 130, L1/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",$51-$100,Italian,Western Restaurant,,,Wong Tai Sin,75,Western,Wong Tai Sin,114.193556,22.341382,7833-1888
+3,Wing Lai Yuen Sze Chuen Noodles Restaurant,"G/F, 15-17 Fung Tak Road, Wong Tai Sin",$51-$100,Sichuan,Stir-Fry,,,Wong Tai Sin,75,Chinese,Wong Tai Sin,114.1963847,22.3433459,8041-3993
+4,Singapore Restaurant,"Shop 16, G/F., Lions Rise, 8 Muk Lun Street, Wong Tai Sin",$51-$100,Singaporean,Curry,Skewer,Skewer,Wong Tai Sin,75,Asian,Wong Tai Sin,114.197253,22.340665,3338-5089
+5,8 Happiness,"Shop G4A, G/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",$101-$200,Taiwan,Stir-Fry,,,Wong Tai Sin,300,Chinese,Wong Tai Sin,114.193556,22.341382,6721-2640
+6,South Chinese Style Restaurant,"4 Ngan Fung Street, Wong Tai Sin",$51-$100,Guangdong,Taiwan,Ramen,Fine Dried Seafood,Wong Tai Sin,75,Hong Kong,Wong Tai Sin,114.1980809,22.3440091,3724-3103
+7,V Cuisine,"Shop 8, 2/F, Lionsrise, 8 Muk Lun Street, Wong Tai Sin",$201-$400,Guangdong,Dim Sum,Stir-Fry,Business Dining,Wong Tai Sin,150,Hong Kong,Wong Tai Sin,114.197253,22.340665,8984-6308
+8,Starbucks Coffee,"Shop G3B, G/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,American,Salad,Coffee Shop,Casual Drink,Wong Tai Sin,40,Western,Wong Tai Sin,114.193556,22.341382,8577-2536
+9,Spicy House,"G/F, 46 Fei Fung Street, Wong Tai Sin",$51-$100,Sichuan,Hot Chili Oil,Skewer,Skewer,Wong Tai Sin,75,Chinese,Wong Tai Sin,114.1961578,22.3437569,4333-4825
+10,U-Banquet,"2/F, Ho Yuen Centre, 110 Lung Cheung Road, Wong Tai Sin",$101-$200,Guangdong,Hot Pot,Seafood,Dim Sum,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.197303,22.342091,6557-0244
+11,Ying Tao Roasted Meat Restaurant,"G/F, 20 Sheung Fung St, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Hong Kong Style,Noodles/Rice Noodles,Chinese BBQ,Takeaway,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,5779-2607
+12,Hyacinth Dessert,"G/F,52 Wan Fung Street, Wong Tai Sin",Below $50,Western,Dessert,Western Restaurant,,Wong Tai Sin,40,Western,Wong Tai Sin,114.1983805,22.3442608,4147-3781
+13,Bellapasto Italian Cuisine,"G/F, 32 Ming Fung Street, Wong Tai Sin",$201-$400,Italian,Western Restaurant,,,Wong Tai Sin,150,Western,Wong Tai Sin,114.1968925,22.3443256,5559-3651
+14,Ganso Yokocho,"Shop 10, G/F, Lions Rise Hill, 8 Muk Lun Street, Wong Tai Sin",$101-$200,Japanese,Sushi/Sashimi,Yoshoku,,Wong Tai Sin,300,Asian,Wong Tai Sin,114.197253,22.340665,3958-9178
+15,Shanghai Teng,"Shop LG08, LG/F, Temple Mall North, 136 Lung Cheung Rd, Wong Tai Sin",$101-$200,Shanghai,Stir-Fry,,,Wong Tai Sin,300,Chinese,Wong Tai Sin,114.1918744,22.3421957,4655-9491
+16,Gaia Veggie Shop,"Shop 102-103, 1/F, Lions Rise Mall, 8 Muk Lun Street, Wong Tai Sin",$101-$200,Hong Kong Style,Vegetarian,,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.197253,22.340665,2864-3384
+17,Original Taste,"G/F, 44 Shung Wah Street, Fung Wong New Village, Wong Tai Sin",$101-$200,International,Skewer,Skewer,,Wong Tai Sin,300,International,Wong Tai Sin,114.1929813,22.3429615,4569-5200
+18,Hakka Cuisine,"Unit 16, 1st Floor, Lions Rise Mall, 8 Muk Lun Street, Wong Tai Sin",$51-$100,Hakka,Meatless Menu,Dim Sum Restaurant,,Wong Tai Sin,75,Chinese,Wong Tai Sin,114.197253,22.340665,3827-3497
+19,Arome Bakery,"Shop 9, Wong Tai Sin MTR Station, Wong Tai Sin",Below $50,Western,Bakery,,,Wong Tai Sin,40,Western,Wong Tai Sin,114.1929813,22.3429615,7743-7347
+20,Bao Dim Sin Seng,"Shop LG13, LG/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Hong Kong Style,Chinese Buns,Meatless Menu,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193556,22.341382,4679-5936
+21,Wah Yuen Restaurant,"G/F, 1 Wan Fung St, Fung Wong Sun Chuen, Wong Tai Sin",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,1950-3372
+22,House of Ho Yuen Noodle Cuisine,"Shop 21, Lions Rise Mall, 8 Muk Lun Street, Wong Tai Sin",Below $50,Chiu Chow,Hong Kong Style,Noodles/Rice Noodles,Wonton/Dumpling,Wong Tai Sin,40,Chinese,Wong Tai Sin,114.197253,22.340665,6850-8552
+23,Gold Mondo Vietnamese Restaurant,"Room 9, G/F, Lions Rise Mall, 8 Muk Lun Street, Wong Tai Sin",$51-$100,Vietnamese,Noodles/Rice Noodles,,,Wong Tai Sin,75,Asian,Wong Tai Sin,114.197253,22.340665,1975-0022
+24,A-1 Bakery,"Shop G3A, G/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Western,Bakery,Meatless Menu,,Wong Tai Sin,40,Western,Wong Tai Sin,114.193556,22.341382,1827-3851
+25,Good Idea Restaurant,"5 Kam Fung Street, Wong Tai Sin",$51-$100,Hong Kong Style,Hot Pot,Seafood,Curry,Wong Tai Sin,75,Hong Kong,Wong Tai Sin,114.1980476,22.3449988,8410-0051
+26,Genki Sushi,"Shop G4C, G/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,Wong Tai Sin,300,Asian,Wong Tai Sin,114.193556,22.341382,5053-2874
+27,Saizeriya Italian Restaurant,"Unit 15, 1st Floor, Lions Rise Mall, 8 Muk Lun Street, Wong Tai Sin, Kowloon, Wong Tai Sin",$51-$100,Italian,Pizza,Western Restaurant,,Wong Tai Sin,75,Western,Wong Tai Sin,114.197253,22.340665,2809-9736
+28,Super Super Congee & Noodle,"Shop S112, 1/F., Chuk Yuen Shopping Centre, 15 Chuk Yuen Road, Wong Tai Sin",Below $50,Hong Kong Style,Noodles/Rice Noodles,Congee,Fast Food,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.194235,22.343992,5175-5201
+29,PHD,"Shop G04C, G/F, Temple Mall North, 136 Lung Cheung Rd, Wong Tai Sin",$51-$100,Italian,Pizza,Takeaway,,Wong Tai Sin,75,Western,Wong Tai Sin,114.1918744,22.3421957,9114-7402
+30,Hsin Kuang Banquet Hall,"2/F, Hsin Kuang Centre, 120 Lung Cheung Rd., Wong Tai Sin",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.196518,22.3420329,5148-8991
+31,Cafe 360,"Shop G12, G/F, Lions Rise Mall, 8 Muk Lun Street, Wong Tai Sin",$51-$100,Western,International,Pizza,Hamburger,Wong Tai Sin,75,Western,Wong Tai Sin,114.197253,22.340665,2577-9051
+32,Yau Kee,"G/F, Fong Wong Chuen Building, 5 Ngan Fung Street, Fung Wong San Tsuen, Wong Tai Sin",Below $50,Guangdong,Noodles/Rice Noodles,Tea Restaurant,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,6411-1155
+33,iEAT,"Shop No.3, G/F, Lion Rise Mall, 8 Muk Lun Street, Wong Tai Sin",Below $50,Japanese,Takeaway,,,Wong Tai Sin,40,Asian,Wong Tai Sin,114.197253,22.340665,3988-4546
+34,Ming Kee Noodle Restaurant,"G/F, 24-28 Wan Fung St, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Hong Kong Style,Noodles/Rice Noodles,Takeaway,Tea Restaurant,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,3122-7874
+35,Gold Moon Seafood Restaurant,"Shop 36-40, Fei Fung Street, Fung Wong San Tsuen, Wong Tai Sin",$101-$200,Guangdong,Seafood,Seafood Restaurant,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,9235-0466
+36,Jade Garden Restaurant,____________15______________012____,$51-$100,Hong Kong Style,Noodles/Rice Noodles,Soup,Chinese BBQ,Wong Tai Sin,75,Hong Kong,Wong Tai Sin,114.1568559,22.4640684,7571-8303
+37,AROI Thai,"Shop N141, 1/F, Temple Mall North, 136 Lung Cheung Rd, Wong Tai Sin",$101-$200,Thai,,,,Wong Tai Sin,300,Asian,Wong Tai Sin,114.1918744,22.3421957,4871-0267
+38,Long Kee,"Shop D, 34 Sheung Fung Street, Fung Wong New Village, Wong Tai Sin",Below $50,Hong Kong Style,Food Stall Noodles,Noodles/Rice Noodles,Curry,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,6875-7878
+39,Mun Yuen Coffee Shop,"Shop 24, Ngan Fung Street, Fung Wong New Village, Wong Tai Sin",Below $50,Hong Kong Style,Tea Restaurant,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,6803-4607
+40,Hung Hing Restaurant,"22 Ngan Fung Street, Wong Tai Sin",$51-$100,Chiu Chow,Chinese BBQ,,,Wong Tai Sin,75,Chinese,Wong Tai Sin,114.1979735,22.3445542,2285-6214
+41,Foo Lum Fishman's Wharf Restaurant,"3/F, Hsin Kuang Centre, 120 Lung Cheung Road, Wong Tai Sin",$101-$200,Guangdong,Hot Pot,Dim Sum,Dim Sum Restaurant,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.196518,22.3420329,5884-5515
+42,euro go go,"Shop N115, L1/F, Temple Mall North, 136 Lung Cheung Rd, Wong Tai Sin",$51-$100,Western,,,,Wong Tai Sin,75,Western,Wong Tai Sin,114.1918744,22.3421957,6394-9473
+43,Pacific Coffee Company,"Shop N111 & N112, Level 1, Temple Mall North, 136 Lung Cheung Road, Wong Tai Sin",Below $50,Western,Salad,Cake,Coffee Shop,Wong Tai Sin,40,Western,Wong Tai Sin,145.0805995,-37.8876953,5816-6241
+44,Kam Tai Pan,"No. 1-4, Cooked Food Stall, Chuk Yuen South Estate, Wong Tai Sin",Below $50,Hong Kong Style,Congee,Tea Restaurant,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,4215-2428
+45,Shanghai Lao Lao,"Shop 132, Level One, Temple Mall South, Wong Tai Sin",$51-$100,Shanghai,Ramen,Stir-Fry,,Wong Tai Sin,75,Chinese,Wong Tai Sin,114.1929813,22.3429615,2101-4732
+46,Jade Garden Chinese Restaurant,"Shop G12, G/F, Temple Mall North, 136 Lung Cheung Road, Wong Tai Sin",$101-$200,Guangdong,Stir-Fry,,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.1918744,22.3421957,2523-3475
+47,Guangdong Roast Restaurant,"Shop 2, G/F, Hsin Kuang Centre, 120 Lung Cheung Road, Wong Tai Sin",Below $50,Guangdong,Chinese BBQ,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.196534,22.342032,4446-3673
+48,Fung Wong Roasted Meat Restaurant,"G/F, 26 Ngan Fung St, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Guangdong,Chinese BBQ,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,4003-9936
+49,McDonald's,"Shop S219A, Chuk Yuen South Estate,, Wong Tai Sin",Below $50,American,Hamburger,Fast Food,,Wong Tai Sin,40,Western,Wong Tai Sin,114.1929813,22.3429615,5427-9203
+50,McDonald's,"Shop 123, L1/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,American,Hamburger,Fast Food,,Wong Tai Sin,40,Western,Wong Tai Sin,114.193556,22.341382,2792-3332
+51,MING KING RESTAURANT,"1/F, Kai Tak Garden Phase 2, Tai Shing Street, Wong Tai Sin",$101-$200,Hong Kong Style,Seafood,Dim Sum,Chicken Hot Pot,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.1936648,22.3377603,4707-3388
+52,Rice Fort Restaurant,"G/F, 3 Ngan Fung St, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,2944-6027
+53,Pizza Hut,"Shop 5-6, G/F, Profit Mansion, 23 Fei Fung Street, Wong Tai Sin",$101-$200,Italian,Pizza,Takeaway,Western Restaurant,Wong Tai Sin,300,Western,Wong Tai Sin,114.1968806,22.3436679,1610-3648
+54,Kam Lung Wah Snack Shop,"G/F, 2 Ngan Fung St, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Hong Kong Style,Congee,Takeaway,Tea Restaurant,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,4706-8771
+55,Ka Ka Chung Cake Shop,"Shop S3, Chuk Yuen Plaza, Chuk Yuen South Estate, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,1992-5685
+56,Chong Wing Restaurant,"Shop S113, 1/F, Chuk Yuen South Plaza, 15 Chuk Yuen Road, Wong Tai Sin",$51-$100,Hong Kong Style,Tea Restaurant,,,Wong Tai Sin,75,Hong Kong,Wong Tai Sin,114.194235,22.343992,3132-1408
+57,Analie Restaurant Indonesia,"Shop2, G/F, 33 Fei Fung St., Wong Tai Sin",Below $50,Indonesian,Curry,,,Wong Tai Sin,40,Asian,Wong Tai Sin,114.1964174,22.3436796,8802-1091
+58,Kim Po Restaurant,____________________6__,Below $50,Hong Kong Style,Food Stall Noodles,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.2348162,22.3045147,7563-0009
+59,Ant One,"Shop G13, G/F, Temple Mall North, 136 Lung Cheung Road, Wong Tai Sin",$101-$200,International,Western Restaurant,,,Wong Tai Sin,300,International,Wong Tai Sin,114.1918744,22.3421957,9279-8833
+60,BreadPlus,"Shop S05, 2/F, Tin Ma Shopping Centre, Wong Tai Sin",Below $50,Japanese,Western,Bakery,,Wong Tai Sin,40,Asian,Wong Tai Sin,114.1929813,22.3429615,1957-3286
+61,Red Cherry Bakery,"G/F., 14 Sheung Fung Street, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1976874,22.3439795,2301-8558
+62,Hui Lau Shan,"Shop G7, G/F, Wong Tai Sin Shopping Cerntre, Wong Tai Sin Estate, Wong Tai Sin",Below $50,Hong Kong Style,Dessert,Sweet Soup,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,3719-7600
+63,Mighty Taste Cuisine,"Shop 1G, G/F, Baily Court, 33 Po Kong Village Road, Wong Tai Sin",$201-$400,Guangdong,Sichuan,Hot Pot,Chicken Hot Pot,Wong Tai Sin,150,Hong Kong,Wong Tai Sin,114.1985335,22.3434511,2669-0731
+64,Maxim's Cake Shop,"Shop S102, Chuk Yuen Shopping Centre, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,5787-3439
+65,Luen Hing Restaurant,"G/F, 3 Kam Fung St, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,7109-3091
+66,Cheung Fat,"CF3, 2/F, Tai Shing St Market, 121 Choi Hung Rd,, Wong Tai Sin",$51-$100,Hong Kong Style,Hot Pot,Seafood,Noodles/Rice Noodles,Wong Tai Sin,75,Hong Kong,Wong Tai Sin,114.1948126,22.3372429,6535-8169
+67,Itacho Sushi,"Shop G07, G/F, Temple Mall North, 136 Lung Cheung Rd, Wong Tai Sin",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,Wong Tai Sin,300,Asian,Wong Tai Sin,114.1918744,22.3421957,4424-3054
+68,Hak Ka Hut,"Shop 101-101B, L1/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",$101-$200,Hakka,Stir-Fry,,,Wong Tai Sin,300,Chinese,Wong Tai Sin,114.193556,22.341382,1025-8393
+69,Tak Kee,"CF 7-8, 2/F, Tai Shing Street Market, 121 Choi Hun, Wong Tai Sin",Below $50,Hong Kong Style,Coffee Shop,Snack Shop & Deli,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,7065-5670
+70,Tai Cheong Bakery,"Shop S209, 2/F, Chuk Yuen Plaza, 15 Chuk Yuen Road, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,Takeaway,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.194235,22.343992,6312-1016
+71,McCafe,______________________S219A____________,Below $50,American,Bakery,Coffee Shop,,Wong Tai Sin,40,Western,Wong Tai Sin,114.109497,22.396428,9915-4651
+72,Hung Fook Tong,"S221,   Chuk Yuen South Estate Plaza,, Wong Tai Sin",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193203,22.343535,8244-3112
+73,Vegetable Garden,"G/f, 83 Fung Tak Road, Wong Tai Sin",Below $50,Hong Kong Style,Vegetarian,Takeaway,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1982623,22.3434844,9000-7509
+74,Eat East,"Shop S128, 1/F, Chuk Yuen Plaza, Chuk Yuen South Estate, Wong Tai Sin",Below $50,Hong Kong Style,Takeaway,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,6254-2249
+75,Wing Kee Noodles,"CF 2, Lower Wong Tai Sin Estate Lung Lok House, Wong Tai Sin",Below $50,Hong Kong Style,Noodles/Rice Noodles,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,1350-6256
+76,Bar Pacific,"G/F, 31 Fung Tak Road, Wong Tai Sin",$101-$200,International,Bar,Private Party,,Wong Tai Sin,300,International,Wong Tai Sin,114.1966708,22.3433663,1604-5382
+77,Tat Fat Restaurant,"Shop 114, 1/F, Chuk Yuen South Estate Arcade,, Wong Tai Sin",Below $50,Guangdong,Dim Sum,Stir-Fry,Dim Sum Restaurant,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,4974-4337
+78,Cheung Hing Loon Noodle,"CF2, 2/F, Tai Shing Street Market, 121 Choi Hung R, Wong Tai Sin",Below $50,Hong Kong Style,Coffee Shop,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,3993-1663
+79,Shing Fat,"CF6, 2/F, Tai Shing Street Market, 121 Choi Hung R, Wong Tai Sin",$51-$100,Chiu Chow,Coffee Shop,,,Wong Tai Sin,75,Chinese,Wong Tai Sin,114.1929813,22.3429615,8943-1425
+80,Walnut Shop,"Shop LG6, LG/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Hong Kong Style,,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193556,22.341382,2904-6161
+81,Eat East,"Shop LG3, LG/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Hong Kong Style,Takeaway,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193556,22.341382,7335-1697
+82,Health Works,"Shop WTS 7-8, Wong Tai Sin MTR Station , Wong Tai Sin",Below $50,Hong Kong Style,Herbal Tea,Herbal Cuisine,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,3126-0999
+83,Dim Sum House,____________________27__,Below $50,Hong Kong Style,Dim Sum,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1894981,22.3060646,9433-8023
+84,Ho Yuen Bakery,"Shop 108, Lung Poon Court Commercial Complex, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,Snack Shop & Deli,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,5112-7626
+85,Good Taste Bakery,"Shop S012-013, Chuk Yuen Plaza, 15 Chuk Yuen Road, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.194235,22.343992,4793-1276
+86,Saint Honore Cake Shop,"Shop S220, To Yuen Centre, Chuk Yuen South Estate, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,4654-3105
+87,Bao Dim Sin Seng,"Shop 18, G/F, Kai Tak Garden, 121 Choi Hung Road, Wong Tai Sin",Below $50,Hong Kong Style,Chinese Buns,Meatless Menu,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1948126,22.3372429,5407-0191
+88,Wing Wah,"Shop LG7, LG/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,Chinese Cake,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193556,22.341382,7561-5261
+89,Yamazaki Bakery,"Shop LG10, LG/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Japanese,Bakery,,,Wong Tai Sin,40,Asian,Wong Tai Sin,114.193556,22.341382,5484-2913
+90,Supper Express,"Shop E, 1 Ngan Fung St G/F, Fung Wong Sun Chuen,, Wong Tai Sin",Below $50,Japanese,Sushi/Sashimi,Takeaway,,Wong Tai Sin,40,Asian,Wong Tai Sin,114.1929813,22.3429615,2831-7927
+91,Cafde Coral,"Shop UG5-UG9, UG/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Hong Kong Style,Meatless Menu,Fast Food,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193556,22.341382,5581-4912
+92,THE PHOENIX,"G/F, 34 Fei Fung Street, Wong Tai Sin",$101-$200,Hong Kong Style,Hot Pot,,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.1968644,22.3437031,1997-5452
+93,Foo Lum Palace,"3/F, Hsin Kuang Centre, 120 Lung Cheung Road, Wong Tai Sin",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.196518,22.3420329,4951-0316
+94,BreadTalk,"Shop G05, G/F, Temple Mall North, 136 Lung Cheung Road, Wong Tai Sin",Below $50,Hong Kong Style,Bakery,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1918744,22.3421957,2604-9373
+95,Chuk Yuen Restaurant,"Shop S110, Chuk Yuen Shopping Centre, Wong Tai Sin",Below $50,Hong Kong Style,Tea Restaurant,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,8946-7862
+96,Maxim's MXMX,"Shop G4B, G/F, Temple Mall South, 103 Ching Tak Street, Wong Tai Sin",Below $50,Hong Kong Style,Fast Food,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.193556,22.341382,9483-6479
+97,Maxim's MXMX,"Shop S216, 2/F, Chuk Yuen Plaza, Chuk Yuen South Estate, Wong Tai Sin",Below $50,Hong Kong Style,Fast Food,,,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,3393-5478
+98,Trusty Congee King,"Shop 120, 1/F, Temple Mall North, 104 Ching Tak Street, Wong Tai Sin",$51-$100,Hong Kong Style,Noodles/Rice Noodles,Congee,Tea Restaurant,Wong Tai Sin,75,Hong Kong,Wong Tai Sin,114.1943055,22.3409395,3814-5376
+99,Azabu Sabo,"Shop N142, 1/F, Temple Mall North, Wong Tai Sin",$101-$200,Japanese,Dessert,Ice Cream/yogurt,Curry,Wong Tai Sin,300,Asian,Wong Tai Sin,114.1929813,22.3429615,8208-9898
+100,Paramount Banquet Hall,"Shop N222, 2/F, Lung Cheung Plaza, 136 Lung Cheung Road, Wong Tai Sin",$101-$200,Guangdong,Hot Pot,Dim Sum,,Wong Tai Sin,300,Hong Kong,Wong Tai Sin,114.1918744,22.3421957,1689-8892
+101,New Mui YUen Restaurant,"G/F 20, Wan Fung Street, Fung Wong Village, Wong Tai Sin",Below $50,Hong Kong Style,Noodles/Rice Noodles,Curry,Tea Restaurant,Wong Tai Sin,40,Hong Kong,Wong Tai Sin,114.1929813,22.3429615,2387-2532
+102,Don Don Tei,"Shop 132, 1/F, Temple Mall South, 104 Ching Tak Street, Wong Tai Sin",$51-$100,Japanese,,,,Wong Tai Sin,75,Asian,Wong Tai Sin,114.1943055,22.3409395,1720-4945
+103,Heart's Dessert,"Shop 104, 1/F., Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Western,Dessert,Sweet Soup,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,4049-7011
+104,Yummy Fast Food,"Shop 6, G/F, 16 Yuk Wah Crescent, Tsz Wan Shan",$51-$100,Vietnamese,,,,Tsz Wan Shan,75,Asian,Wong Tai Sin,114.202022,22.346718,6394-1410
+105,Sam Kee Restaurant,"G/F, 6 Po King Lane, Tsz Wan Shan",$51-$100,Chiu Chow,Dim Sum,Dim Sum Restaurant,,Tsz Wan Shan,75,Chinese,Wong Tai Sin,114.202783,22.3466145,7083-9949
+106,Pizza Mario,"Shop 1A, G/F, Man Po Building, 28 Yuk Wah Cresent, Tsz Wan Shan",Below $50,Italian,International,Fast Food,Snack Shop & Deli,Tsz Wan Shan,40,Western,Wong Tai Sin,114.2028185,22.346899,6169-9611
+107,Sai Chuen Cuisine,"Shop 2-3, Che Wah Shopping Centre, 18 Yuk Wah Crescent, Tsz Wan Shan",$51-$100,Sichuan,Hot Pot,Noodles/Rice Noodles,Stir-Fry,Tsz Wan Shan,75,Chinese,Wong Tai Sin,114.2021505,22.3465295,6942-6002
+108,Saizeriya Italian Restaurant,"Shop 611-614, 6/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",$51-$100,Italian,Pizza,Western Restaurant,,Tsz Wan Shan,75,Western,Wong Tai Sin,114.200586,22.348177,2604-9120
+109,Man Kee,"G/F, 31D Yuk Wah Crescent, Tsz Wan Shan",Below $50,Hong Kong Style,Noodles/Rice Noodles,Tea Restaurant,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.2014432,22.3466655,8175-1897
+110,Genki Sushi,"Shop 109, 1/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,Tsz Wan Shan,300,Asian,Wong Tai Sin,114.200586,22.348177,5254-2093
+111,Eat East,"Shop 203, 2/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",Below $50,Hong Kong Style,Dessert,Takeaway,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,7996-8936
+112,Tai Cheong Bakery,"Shop 105, 1/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Bakery,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,3062-5345
+113,Gold Rice Bowl Restaurant,"Shop 308, 3/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,1271-8705
+114,Hei Hei Restaurant,"Shop 615-617, 6/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",Below $50,Hong Kong Style,Tea Restaurant,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,9899-9505
+115,Tai Cheung Restaurant,"G/F, 22G Yuk Wah Crescent,, Tsz Wan Shan",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.2025739,22.3465844,3834-8029
+116,Tezukuri No Mise,"Shop MM02, 5/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",Below $50,Japanese,Ice Cream/yogurt,,,Tsz Wan Shan,40,Asian,Wong Tai Sin,114.200586,22.348177,1486-2472
+117,Maxim's Cake Shop,"Shop 101 & 102, 1/F, Tsz Wan Shan Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Bakery,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,144.9404893,-37.8409565,3368-6413
+118,Yoshinoya,"Shop 314-315, 3/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",$51-$100,Japanese,Fast Food,,,Tsz Wan Shan,75,Asian,Wong Tai Sin,114.200586,22.348177,7421-7524
+119,Yeh Lam Kok Restaurant,"Shop 524-527, 5/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",$51-$100,International,Western Restaurant,,,Tsz Wan Shan,75,International,Wong Tai Sin,114.200586,22.348177,5489-3162
+120,McDonald's,"Shop 333, Tsz Wan Shan Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,American,Hamburger,Fast Food,,Tsz Wan Shan,40,Western,Wong Tai Sin,114.200586,22.348177,4029-8837
+121,Thai Kitchen,"Shop 4, G/F, 18 Yuk Wah Crescent, Tsz Wan Shan",Below $50,Thai,Tea Restaurant,,,Tsz Wan Shan,40,Asian,Wong Tai Sin,114.2021505,22.3465295,6366-8536
+122,Power Chef,"Shop A, G/F, 2 Koon Wah Lane,Yuk Wah Street, Tsz Wan Shan, Tsz Wan Shan",Below $50,Thai,Curry,Skewer,Snack Shop & Deli,Tsz Wan Shan,40,Asian,Wong Tai Sin,114.200412,22.3515518,8526-6836
+123,Sushi Take Out,"Shop 332, 3/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Japanese,Sushi/Sashimi,Takeaway,,Tsz Wan Shan,40,Asian,Wong Tai Sin,114.200586,22.348177,7587-3749
+124,Bao Dim Sin Seng,"Shop 201 , 2/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",Below $50,Hong Kong Style,Chinese Buns,Meatless Menu,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,1719-3967
+125,Gong Cha,"Shop 322, 3/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Taiwan,Taiwanese Drink,Takeaway,,Tsz Wan Shan,40,Chinese,Wong Tai Sin,114.200586,22.348177,7252-7958
+126,Sunrise Restaurant,"Shop 508, 5/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Western,Ramen,Teppanyaki,Western Restaurant,Tsz Wan Shan,40,Western,Wong Tai Sin,114.200586,22.348177,3902-1279
+127,Wing Kee Restaurant,"Shop A & B, G/F, 12 Yuk Wah Crescent,, Tsz Wan Shan",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,-95.7389168,29.99504,6134-1704
+128,Honorary Family,"Shop 410, 4/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",$51-$100,Guangdong,Dim Sum,Dim Sum Restaurant,,Tsz Wan Shan,75,Hong Kong,Wong Tai Sin,114.200586,22.348177,5303-0700
+129,Happy Fruit Garden,"Shop E1, G/F, Ka Wah Bldg ,Yuk Wah Crescent, Tsz Wan Shan",Below $50,Taiwan,Taiwanese Drink,,,Tsz Wan Shan,40,Chinese,Wong Tai Sin,114.202022,22.346718,1846-3888
+130,Kentucky Fried Chicken,"Shop No.408, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,American,Fast Food,,,Tsz Wan Shan,40,Western,Wong Tai Sin,114.200586,22.348177,3677-1818
+131,Red Rice Red Rice,"G/F, 12-14 Yuk Wah Cres, Tsz Wan Shan",Below $50,Hong Kong Style,Noodles/Rice Noodles,Tea Restaurant,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.2013903,22.3466291,5684-2317
+132,Fairwood,"Shop 317B, 3/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Fast Food,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,2935-9396
+133,BBQ,"Shop A, 28 Yuk Wah Crescent, Tsz Wan Shan",Below $50,Thai,Skewer,Upper-floor Cafe,Skewer,Tsz Wan Shan,40,Asian,Wong Tai Sin,114.2028185,22.346899,3594-3080
+134,Chiu Kong,"Shop 44, Tsz Wan Shan Market, 2/F Tsz Wan Shan Shopping Centre, Tsz Wan Shan",Below $50,Chiu Chow,,,,Tsz Wan Shan,40,Chinese,Wong Tai Sin,114.200412,22.3515518,7573-3480
+135,Ajisen Ramen,"Shop501-502, 5/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",$51-$100,Japanese,Ramen,,,Tsz Wan Shan,75,Asian,Wong Tai Sin,114.200586,22.348177,5373-7818
+136,Saint Honore Cake Shop,"Shop 329, 3/F, Tsz Wan Shan Shopping Centre, 23 Yu__Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Bakery,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200412,22.3515518,5160-4865
+137,Hung Fook Tong,"Shop 409, 4/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street , Tsz Wan Shan",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,4232-7933
+138,Wo Mei Ka (Nice Capital Restaurant Group)(),"Shop 2, Phase1,Tsz Ching Commercial Complex, Tsz Wan Shan",Below $50,Hong Kong Style,Chinese BBQ,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200412,22.3515518,3262-8764
+139,First Edible Nest,"Shop 541, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street., Tsz Wan Shan",$101-$200,Guangdong,Dessert,Fine Dried Seafood,,Tsz Wan Shan,300,Hong Kong,Wong Tai Sin,114.200586,22.348177,1049-0503
+140,Docle,"G/F, Che Cheung Building, 16 Yuk Wah Cres, Tsz Wan Shan",Below $50,Western,Dessert,Cake,Takeaway,Tsz Wan Shan,40,Western,Wong Tai Sin,114.2017925,22.3464805,6641-2475
+141,Prime Deli,"Shop B, G/F, The Forest Hills, 99 Po Kong Village Road, Tsz Wan Shan",$51-$100,Hong Kong Style,Tea Restaurant,,,Tsz Wan Shan,75,Hong Kong,Wong Tai Sin,114.1990825,22.3455714,8120-5661
+142,Mini Cafe,"G/F, 3 Tsz Wah Lane, Tsz Wan Shan",Below $50,Western,Cake,Coffee Shop,,Tsz Wan Shan,40,Western,Wong Tai Sin,114.2015271,22.3471426,3420-9715
+143,Jenny Bakery,"Shop A, G/F, 54 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Bakery,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.2016938,22.3472302,2975-5786
+144,Wing Kee Cafe,"G/F, 29 Yuk Wah Crescent,, Tsz Wan Shan",Below $50,Hong Kong Style,Tea Restaurant,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.201389,22.3466638,4052-2232
+145,Tokyo Bakery,"Shop 311, 3/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Bakery,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,4627-1669
+146,Aji Ichiban,"Shop 528-530, 5/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",Below $50,Hong Kong Style,Snack Shop & Deli,,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200586,22.348177,9819-2284
+147,PHD,"Shop no.331,3/F,Tsz Wan Shan Shopping Center,23 Yuk Wah St, Tsz Wan Shan",$51-$100,Italian,Pizza,Takeaway,,Tsz Wan Shan,75,Western,Wong Tai Sin,114.200586,22.348177,2989-7125
+148,Kam Fung Fast Food,"Shop B, 45 Yuk Wah Crescent,, Tsz Wan Shan",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.2018825,22.3467177,9397-0834
+149,A+,"Shop 4, Che Cheung Building, Yuk Wah Crescent, Tsz Wan Shan",Below $50,Hong Kong Style,Skewer,Snack Shop & Deli,Skewer,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.202022,22.346718,6650-1917
+150,Nice Capital Restaurant,"Shop 707-709, 7/F, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street, Tsz Wan Shan",$51-$100,Guangdong,Dim Sum,Dim Sum Restaurant,,Tsz Wan Shan,75,Hong Kong,Wong Tai Sin,114.200586,22.348177,7924-5345
+151,Cafde Coral,"Shop 511, Tsz Wan Shan Shopping Centre, 23 Yuk Wah Street (Tsz Wan Shan), Tsz Wan Shan",Below $50,Hong Kong Style,Meatless Menu,Fast Food,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.200412,22.3515518,1062-8193
+152,Ka Fung Restaurant,"G/F, 53 Yuk Wah Crescent, Tsz Wan Shan",Below $50,Hong Kong Style,Noodles/Rice Noodles,Tea Restaurant,,Tsz Wan Shan,40,Hong Kong,Wong Tai Sin,114.2022279,22.3467622,2717-9207
+153,McDonald's,"G/F, 68 Yuk Wah Street,, Tsz Wan Shan",Below $50,American,Hamburger,Fast Food,,Tsz Wan Shan,40,Western,Wong Tai Sin,114.202361,22.347007,8738-5991
+154,Akayama,"Shop C38, 2/F, San Po Kong Plaza, Shung Ling Street, San Po Kong",$201-$400,Japanese,All-you-can-eat,,,San Po Kong,150,Asian,Wong Tai Sin,114.1956875,22.3351996,5497-7818
+155,Antoshimo Cafe & Bakery,"Shop, G05B, Mikiki Mall, No. 638, Prince Edward Road East, San Po Kong",Below $50,Japanese,Bakery,Coffee Shop,,San Po Kong,40,Asian,Wong Tai Sin,114.1968622,22.3335547,8839-1114
+156,Gelare,"Shop G02A, G/F, Mikiki, 638 Prince Edward Road East, San Po Kong",Below $50,Australian,Dessert,Ice Cream/yogurt,,San Po Kong,40,Western,Wong Tai Sin,114.1968622,22.3335547,1289-3372
+157,Tak Lung Restaurant,"G/F, 25-29 Hong Keung Street, San Po Kong",$101-$200,Guangdong,Dim Sum,Stir-Fry,Group Dining,San Po Kong,300,Hong Kong,Wong Tai Sin,114.197335,22.3347577,9228-6317
+158,eatstreet@pentalounge,"1/F., pentahotel Hong Kong, Kowloon, 19 Luk Hop Street, San Po Kong",$201-$400,International,Buffet,Hotel Restaurant,,San Po Kong,150,International,Wong Tai Sin,114.1996635,22.3373249,8083-6737
+159,Ying Kee,"G/F, Shop 10, Hong Keung Mansion, 32-34 Hong Keung, San Po Kong",Below $50,Hong Kong Style,Noodles/Rice Noodles,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1989259,22.3364426,6394-9016
+160,Delight,"G/F, 63 King Fuk Street, San Po Kong",Below $50,Western,All Day Breakfast,Coffee Shop,,San Po Kong,40,Western,Wong Tai Sin,114.196952,22.334275,7320-1906
+161,Red Rice Red Rice,"Shop B, G/F, On Lung Factory Building, 11-13 Luk Hop Street, San Po Kong",Below $50,Hong Kong Style,Noodles/Rice Noodles,All Day Breakfast,Tea Restaurant,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1993984,22.337542,6199-1458
+162,Val rie,"Room 1903, 19/F, Laurels Industrial Building, 32 Tai Yau Street, San Po Kong",Below $50,Western,Cake,Takeaway,,San Po Kong,40,Western,Wong Tai Sin,114.1975041,22.3370659,1498-4469
+163,Houston Restaurant & Cafe,"G/F, 50 Yan Oi Street, San Po Kong",$201-$400,Western,BBQ,Steak House,Western Restaurant,San Po Kong,150,Western,Wong Tai Sin,114.195379,22.3342848,5024-5314
+164,HEITI'S House,"G/F, 48 Yan Oi Street, San Po Kong",$201-$400,Western,Western Restaurant,Group Dining,Special Occasion Dining,San Po Kong,150,Western,Wong Tai Sin,114.195147,22.33423,6734-7716
+165,WoZi,"G/F, Yan Oi Street, San Po Kong",$51-$100,Western,Coffee Shop,,,San Po Kong,75,Western,Wong Tai Sin,114.1948975,22.3346289,8832-5951
+166,California Pizza Kitchen,"Shop G12, G/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East,, San Po Kong",$101-$200,American,Pizza,Western Restaurant,,San Po Kong,300,Western,Wong Tai Sin,114.1968622,22.3335547,7909-9316
+167,Pho Hoi An PHO,"Shop no. 107, Mikiki Mall, No. 638, Prince Edward Road East, San Po Kong, Kowloon, San Po Kong",$51-$100,Vietnamese,,,,San Po Kong,75,Asian,Wong Tai Sin,114.1989259,22.3364426,6951-8676
+168,pizzabar,"Lobby, pentahotel Hong Kong, Kowloon, 19 Luk Hop Street, San Po Kong",$201-$400,International,Pizza,Hotel Restaurant,,San Po Kong,150,International,Wong Tai Sin,114.1996635,22.3373249,8609-2504
+169,Red Thai,"Shop 116, 1/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East, San Po Kong",$101-$200,Thai,Singaporean,Pizza,Curry,San Po Kong,300,Asian,Wong Tai Sin,114.1968622,22.3335547,1283-1734
+170,Dream Cafe 1986,"Shop A57A3, G/F, San Po Kong Plaza, 33 Yi Lun Street, San Po Kong",$51-$100,French,Western,Western Restaurant,Private Kitchen,San Po Kong,75,Western,Wong Tai Sin,114.1962845,22.3351954,7413-9393
+171,Otanri Japanese restaurant,"Shop G25-27, G/F, Yue Xiu Plaza, Ning Yuen Street, San Po Kong",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,San Po Kong,300,Asian,Wong Tai Sin,114.1955254,22.3340112,6614-7211
+172,Dragon King Restaurant,"Shop 110, 1/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East, San Po Kong",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1968622,22.3335547,6265-2792
+173,J&A; Cake Shop,"G/F., 18 Choi Hung Road, San Po Kong",Below $50,Western,Bakery,Takeaway,,San Po Kong,40,Western,Wong Tai Sin,114.1947829,22.3340829,1784-8093
+174,Swiss Cafe,"G/F., Sheung Hei Factory Building, 19 Sheung Hei Street, San Po Kong",Below $50,Hong Kong Style,Tea Restaurant,Casual Drink,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1975595,22.3374534,9753-1361
+175,Ruby Kitchen,"G/F, Yan Oi Building , 12 Yan Oi Street, San Po Kong",$101-$200,International,Western Restaurant,,,San Po Kong,300,International,Wong Tai Sin,114.1948425,22.334963,6167-0044
+176,Sweet River Restauant,"Shop A, G/F, Wai shun Mansion, 50-58 Chuek Luk Street, San Po Kong",Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.2000152,22.3369076,8602-5014
+177,MOS Burger,"Shop G08, G/F, Mikiki, 638 Prince Edward Road East, San Po Kong",Below $50,Japanese,Hamburger,Fast Food,,San Po Kong,40,Asian,Wong Tai Sin,114.1968622,22.3335547,4947-2357
+178,BreakTime,"G/F., 79 King Fuk Street, San Po Kong",Below $50,Japanese,,,,San Po Kong,40,Asian,Wong Tai Sin,114.1974653,22.3343467,3689-2285
+179,Hui Wei Che Zai Mian,"Shop 9, G/F, Hong Kueng Masion, 32-34 Hong Keung Street, San Po Kong",Below $50,Hong Kong Style,Food Stall Noodles,Snack Shop & Deli,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1963755,22.3347684,6023-6856
+180,Le Cafe Place,"G03C, Mikki, 638 Prince Edward Road East, San Po Kong",$51-$100,Western,Western Restaurant,Coffee Shop,,San Po Kong,75,Western,Wong Tai Sin,114.1968622,22.3335547,4086-1179
+181,Gourmet Dian Noodles Limited,"12, Kam Wing Street, San Po Kong",Below $50,Yunnan,Noodles/Rice Noodles,Stir-Fry,,San Po Kong,40,Chinese,Wong Tai Sin,114.195553,22.335849,4748-6008
+182,Emoto Sushi,"Shop 8, G/F, Yan Oi Building, 2-24 Yan Oi Street, San Po Kong",$101-$200,Japanese,Robatayaki,Sushi/Sashimi,Skewer,San Po Kong,300,Asian,Wong Tai Sin,114.1948425,22.334963,6728-2026
+183,King Fuk Restaurant,"G/F, 81 King Fuk Street, San Po Kong",Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1975033,22.334366,4114-0297
+184,J & V Mini Kitchen,"G/F, 71 King Fuk Street, San Po Kong",Below $50,Western,,,,San Po Kong,40,Western,Wong Tai Sin,114.1973129,22.3342703,9419-2852
+185,Riso SEGRETO,"Shop LG7A, G/F., Mikiki,The Latitude Tower, 638 Prince Edward Road East, San Po Kong",$101-$200,Italian,Western Restaurant,,,San Po Kong,300,Western,Wong Tai Sin,114.1968622,22.3335547,2650-9665
+186,Starbucks Coffee,"Shop G01, G/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East,, San Po Kong",Below $50,American,Salad,Coffee Shop,Casual Drink,San Po Kong,40,Western,Wong Tai Sin,114.1968622,22.3335547,1254-0673
+187,Kwai Kee Chiu Chow restaurant,"Shop 12, G/F, 32 Hong Keung Street,, San Po Kong",$51-$100,Chiu Chow,Stir-Fry,,,San Po Kong,75,Chinese,Wong Tai Sin,114.196341,22.334789,5493-0800
+188,So Kee Congee Shop,"G/F, 24 Kam Wing Street, San Po Kong",Below $50,Hong Kong Style,Congee,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1959285,22.3357134,3690-7328
+189,Panash Bakery & Cafe,"Shop G11, G/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East, San Po Kong",$101-$200,Western,Bakery,Western Restaurant,,San Po Kong,300,Western,Wong Tai Sin,114.1968622,22.3335547,5276-5333
+190,Hai Nan Snack,"Shop K, 2D Yan Oi Street, San Po Kong",Below $50,Village Food,Noodles/Rice Noodles,Snack Shop & Deli,,San Po Kong,40,Chinese,Wong Tai Sin,114.1948425,22.334963,4543-1340
+191,Candies Cafe,"Shop C1, G/F., Startex Industrial Building, 14 Tai Yau Street, San Po Kong",Below $50,Italian,Bakery,Coffee Shop,,San Po Kong,40,Western,Wong Tai Sin,114.1987634,22.3384066,6993-0627
+192,Nichigyu Shabu Shabu & Sukiyaki Restaurant,"Shop 111, 1/F,  Mikiki, 638 Prince Edward Road East, San Po Kong",$101-$200,Japanese,Hot Pot,Buffet,,San Po Kong,300,Asian,Wong Tai Sin,114.1968622,22.3335547,3807-6210
+193,Wing Fat Food Centre,"Shop A, G/F, Lee King Ind Bldg, 12 Ng Fong Street,, San Po Kong",Below $50,International,Tea Restaurant,,,San Po Kong,40,International,Wong Tai Sin,114.199901,22.337849,9010-3718
+194,Lucullus Gourmet Shop,"Shop 1A, G/F, Mikiki of The Latitude, 638 Prince Edward Road East, San Po Kong",$51-$100,Western,Cake,Chocolate/Candy Shop,,San Po Kong,75,Western,Wong Tai Sin,114.1968622,22.3335547,9484-7479
+195,Subway,"Shop G03B, G/F, Mikiki, 638 Prince Edward Road East, San Po Kong",Below $50,Western,Meatless Menu,Takeaway,Fast Food,San Po Kong,40,Western,Wong Tai Sin,114.1968622,22.3335547,6596-5345
+196,Good Luck Restaurant,____________26-30______,Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1610574,22.4634821,5842-7195
+197,Bar East Hot Pot,"Shop 16, G/F, Yin Hing Building, 74 Choi Hung Road, San Po Kong",$101-$200,Hong Kong Style,Hot Pot,,,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1945346,22.3359732,6315-5273
+198,Maxim's Cake Shop,"Shop G05A, Mikiki, 638 Prince Edward Road East, San Po Kong",Below $50,Hong Kong Style,Bakery,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1968622,22.3335547,6372-3025
+199,Tsui Wah Restaurant,"G/F, 81-83 Shung Ling Street,, San Po Kong",$51-$100,Hong Kong Style,Meatless Menu,Tea Restaurant,Food Wise Eateries,San Po Kong,75,Hong Kong,Wong Tai Sin,114.1957117,22.3344862,1036-7074
+200,GoodealMart,"Shop B, 1/F, Chung Kai Industrial Building, 9 Luk Hop Street,, San Po Kong",$101-$200,Seafood,Sushi/Sashimi,Takeaway,,San Po Kong,300,Others,Wong Tai Sin,114.1992386,22.3376471,8116-1323
+201,Star Seafood Restaurant,"G/F-1/F,86 Tseuk Luk Street, San Po Kong",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1972394,22.3350716,8203-7471
+202,Kam Hoi Tong restaurant,"Shop 1 A, G/f, Wing Shing Ind Bldg, 26 Ng Fong Street,, San Po Kong",Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.200427,22.3375359,6697-8220
+203,Hop Lee restaurant,"G/F, 26 Yin Hing St., San Po Kong",Below $50,International,Tea Restaurant,,,San Po Kong,40,International,Wong Tai Sin,114.1951312,22.3361686,6087-1202
+204,Cheung Fai Seafood Restaurant,"4/F, Yue Xiu Plaza, 3-23 Ning Yuen Street, San Po Kong",$101-$200,Guangdong,Seafood,Dim Sum,Stir-Fry,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1955949,22.3337886,4298-6011
+205,Chubby's Pizza,"Shop No.1 G/F, Cheong Tai Bldg., No.83-97 King Fuk Street, San Po Kong",$51-$100,Italian,Pizza,Takeaway,Western Restaurant,San Po Kong,75,Western,Wong Tai Sin,114.19769,22.334609,7058-1848
+206,Noble House,"G/F, 61 King Fuk Street, San Po Kong",$101-$200,International,Western Restaurant,,,San Po Kong,300,International,Wong Tai Sin,114.1970721,22.3341519,8863-8825
+207,Fairwood,"Shop 757-764, G/F, Rhythm Garden, 242 Choi Hung Road, San Po Kong",Below $50,Hong Kong Style,Fast Food,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.202563,22.335692,3882-9663
+208,Omakase,"G/F, 10 Yan Oi Street, San Po Kong",$101-$200,Japanese,Ramen,Skewer,Skewer,San Po Kong,300,Asian,Wong Tai Sin,114.1950056,22.3349604,9465-7404
+209,King Bakery,"Shop 5, G/F, Winning Centre, 29 Tai Yau Street, San Po Kong",Below $50,Hong Kong Style,Bakery,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1982776,22.3371005,3975-7025
+210,41B,____________7______,Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.2077145,22.3324395,3639-1078
+211,B,"G/F, Choi Hung Road Market, 8 Sheung Hei Road, San Po Kong",Below $50,Hong Kong Style,Snack Shop & Deli,Cooked Food Center,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1970333,22.337276,9766-7437
+212,Maison A+,"LG1-3 Yata Supermarket, Mikiki, 638 Prince Edward Rd East, San Po Kong",Below $50,Bakery,,,,San Po Kong,40,Others,Wong Tai Sin,114.1968622,22.3335547,6463-3111
+213,Pizza Hut,"Shop 646-648 & 650, G/F, Rhythm Garden, 242 Choi Hung Road, San Po Kong",$101-$200,Italian,Pizza,Takeaway,Western Restaurant,San Po Kong,300,Western,Wong Tai Sin,-80.5839744,34.5133048,4232-1495
+214,Rainbow Cafe,"G/F, 8 Choi Hung Road, San Po Kong",Below $50,Hong Kong Style,Noodles/Rice Noodles,Tea Restaurant,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1949929,22.3338616,3251-5445
+215,Thai Good BBQ,"G/F, Yin Hing Street, San Po Kong",Below $50,Thai,BBQ,Skewer,Snack Shop & Deli,San Po Kong,40,Asian,Wong Tai Sin,114.1949955,22.3357099,1364-9373
+216,Five Minute,"Shop E1, 34 Shung Ling Street, San Po Kong",Below $50,Hong Kong Style,Northeastern,BBQ,Skewer,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1957206,22.3352767,2012-1653
+217,Hey Dim Sum,"Shop 875& 896, G/F, Rhythm Garden, 242 Choi Hung Road, San Po Kong",Below $50,Hong Kong Style,Takeaway,,,San Po Kong,40,Hong Kong,Wong Tai Sin,117.4002547,37.7690369,8514-7697
+218,Aussie Cafe,"Shop 103, G/F, Rhythm Garden, 242 Choi Hung Road, San Po Kong",Below $50,Western,Western Restaurant,,,San Po Kong,40,Western,Wong Tai Sin,114.202563,22.335692,6377-1264
+219,Ming Fai Kitchen,"G/F, 58 Yin Hing Street, San Po Kong",Below $50,Guangdong,Hong Kong Style,Stir-Fry,Tea Restaurant,San Po Kong,40,Hong Kong,Wong Tai Sin,114.194772,22.335718,4147-0962
+220,Shun King Restaurant,"G/F, 23 Yin Hing St, San Po Kong",Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1949765,22.3356494,8499-8608
+221,Karson's Kitchen,"Shop 10, G/F, Laurels Industrial Building, 32 Tai Yau Street, San Po Kong",Below $50,Vietnamese,Thai,Noodles/Rice Noodles,,San Po Kong,40,Asian,Wong Tai Sin,114.1975041,22.3370659,4052-7458
+222,Hong Kong Taste,"32 hin hing street, San Po Kong",Below $50,Hong Kong Style,Seafood,Noodles/Rice Noodles,Tea Restaurant,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1949958,22.3355215,6262-4733
+223,Open Fire,"Room A, 8/F, On Tat Industrial Building, 3-5 Pat Tat Steet, San Po Kong",$201-$400,Hong Kong Style,BBQ,BBQ Ground,,San Po Kong,150,Hong Kong,Wong Tai Sin,114.1986839,22.3368184,2968-7015
+224,K & K,________________________31-33______,Below $50,Hong Kong Style,Bakery,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.181636,22.3314175,9336-4042
+225,Tai King Restaurant,"G/F, Tai King Industrial Building,102 King Fuk Street,, San Po Kong",Below $50,Hong Kong Style,Fast Food,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1996535,22.334763,9137-2894
+226,Siu Shun Village Cuisine,"G/F, Stelux House, 698 Prince Edward Road East, San Po Kong",$101-$200,Guangdong,Drivers Friendly Dining,,,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1982345,22.334224,5655-2000
+227,Unforgetable Co,"Shop 12, G/F, New Tech Plaza, 34 Tai Yau Street,, San Po Kong",Below $50,Hong Kong Style,Noodles/Rice Noodles,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.197206,22.336706,6507-0720
+228,Lucky Bakery House,"Shop 7, G/F, Hong Keung Mansion, 32-34 Hong Keung, San Po Kong",Below $50,Hong Kong Style,Bakery,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1989259,22.3364426,4859-7028
+229,Pine Himuro,"Shop 17, G/F, Hong Keung Mansion, 32 Hong Keung Street, San Po Kong",Below $50,Hong Kong Style,Coffee Shop,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.196341,22.334789,2772-8438
+230,Just Fun Club,"Shop 30, G/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East, San Po Kong",$51-$100,Upper-floor Cafe,Pets Friendly Dining,,,San Po Kong,75,Others,Wong Tai Sin,114.1968622,22.3335547,2589-3954
+231,Wong King Canteen,"G/F, Wong King Ind Bldg, 2 Tai Yau Street,, San Po Kong",Below $50,International,Tea Restaurant,,,San Po Kong,40,International,Wong Tai Sin,114.1987757,22.3388697,8781-8664
+232,DeliFans,"Shop E8, G/F, Wah Hing Industrial Mansions, 36 Tai Yau Street, San Po Kong",$101-$200,International,Seafood,Sushi/Sashimi,Takeaway,San Po Kong,300,International,Wong Tai Sin,114.1967581,22.3362185,8784-0567
+233,Choi Yan,____________242__________________,Below $50,Guangdong,,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.2590697,22.3109206,7966-1670
+234,Chuen Kee Noodle,"Shop 1C, G/F, Wing Shing Ind Bldg, 26 Ng Fong Street,, San Po Kong",Below $50,Guangdong,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.200427,22.3375359,1655-0496
+235,Master Chan Dim Sum Specialists,"G/F., 41 King Fuk Street, San Po Kong",Below $50,Guangdong,Dim Sum,Chinese Buns,Stir-Fry,San Po Kong,40,Hong Kong,Wong Tai Sin,114.196743,22.3339749,9977-5370
+236,Candies Gourmet,"Shop 103, G/F, Rhythm Garden, 242 Choi Hung Road, San Po Kong",Below $50,Hong Kong Style,Sandwich,Juice,Salad,San Po Kong,40,Hong Kong,Wong Tai Sin,114.202563,22.335692,7108-5331
+237,Bar Pacific,"G/F, Yin Hing Building, 70 Choi Hung Road, San Po Kong",$101-$200,International,Bar,Private Party,,San Po Kong,300,International,Wong Tai Sin,114.1946255,22.3356025,7137-8717
+238,MATSURI,"G435-G436, G/F, Rhythm Garden, 242 Choi Hung Road, San Po Kong",$51-$100,Japanese,Ramen,Skewer,Skewer,San Po Kong,75,Asian,Wong Tai Sin,114.2018534,22.336,9534-4866
+239,Kam Lee Restaurant,"G/F, 9 Hong Keung Street, San Po Kong",Below $50,Hong Kong Style,Noodles/Rice Noodles,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1976749,22.3348987,4287-2167
+240,TC2 (Tea Coffee Two),"Shop 8, G/F, 98 Tseuk Luk Street, San Po Kong",Below $50,Western,Dessert,Coffee Shop,Casual Drink,San Po Kong,40,Western,Wong Tai Sin,114.1976005,22.3350375,5583-0019
+241,Cafde Coral,"UG/F, Wah Hing Industrial Bldg, 36 Tai Yau St,, San Po Kong",Below $50,Hong Kong Style,Meatless Menu,Fast Food,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1967581,22.3362185,1493-4757
+242,Sweet Dim Dim Sum,"G/F, 22 Shung Ling Street, San Po Kong",Below $50,Hong Kong Style,Dim Sum,Tea Restaurant,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1958639,22.3354744,4672-2910
+243,Seng Thai Chong Indonesia & Thai Cusine,"Shop CF18-19, 1/F, Choi Hung Road Market, San Po Kong",Below $50,Thai,Indonesian,Seafood,Noodles/Rice Noodles,San Po Kong,40,Asian,Wong Tai Sin,114.1989259,22.3364426,6036-7126
+244,Sun Hee Lok Canteen,"G/F, Kar Chau Ind Bldg, 6 Sheung Hei Street,, San Po Kong",Below $50,Fast Food,,,,San Po Kong,40,Western,Wong Tai Sin,114.198331,22.3386633,4986-1038
+245,Elephant Bar,"G/F, 55 King Fuk Street,, San Po Kong",$51-$100,Western,Bar,,,San Po Kong,75,Western,Wong Tai Sin,114.1968928,22.3341839,1258-0651
+246,Hakka Feast,"Shop CF11, Market Cooked Food Centre, Choi Hung Road, San Po Kong",$51-$100,Hong Kong Style,Stir-Fry,Cooked Food Center,,San Po Kong,75,Hong Kong,Wong Tai Sin,114.2003184,22.3386863,6111-9223
+247,Tea Tea,"Shop A07B, G/F, San Po Kong Plaza, 33 Shung Ling Street, San Po Kong",Below $50,Taiwan,Taiwanese Drink,,,San Po Kong,40,Chinese,Wong Tai Sin,114.195797,22.334961,6613-1091
+248,Bubble Tea PlusX,"Shop A1, G/F, 1 Yin Hing Street, San Po Kong",Below $50,Taiwan,Taiwanese Drink,Noodles/Rice Noodles,Skewer,San Po Kong,40,Chinese,Wong Tai Sin,114.1949955,22.3357099,5427-3639
+249,PartyFever,"3/F , Sheung Hei Factory Building, 19 Sheung Hei Street, San Po Kong",$101-$200,Hong Kong Style,,,,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1975595,22.3374534,7807-7446
+250,Chiu Tat Canteen,"M/F, 108-110 King Fuk Street, San Po Kong",Below $50,Hong Kong Style,Fast Food,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1992144,22.334593,5196-5245
+251,Hoi Tin Tong,"Shop A, G/F, 21 Shung Ling Street, San Po Kong",Below $50,Guangdong,Herbal Tea,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.196116,22.335452,7681-1616
+252,Po Hing Food Shop,"Shop 6-8, 2/F Choi Hung Road Market Cooked Food Ce, San Po Kong",Below $50,Hong Kong Style,Food Stall Noodles,Vegetarian,Coffee Shop,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1989259,22.3364426,3579-0560
+253,Golden Cake Shop,____________242__________________,Below $50,Western,Bakery,,,San Po Kong,40,Western,Wong Tai Sin,114.2590697,22.3109206,5415-5740
+254,Fai Kee Wanton Noodles,____________34________________,Below $50,Hong Kong Style,Noodles/Rice Noodles,Wonton/Dumpling,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1728422,22.2951702,8398-9414
+255,Taipan Bread & Cakes,"G/F, 82 Tseuk Luk Street, San Po Kong",Below $50,Western,Bakery,,,San Po Kong,40,Western,Wong Tai Sin,114.1971457,22.3354858,7239-5745
+256,Kwong Ming Restaurant,"9 Kim Wing Street , San Po Kong",Below $50,Hong Kong Style,Tea Restaurant,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1952576,22.3361796,9244-7902
+257,Hokaido Bakery,____________3-23______________,Below $50,Hong Kong Style,Bakery,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1180588,22.3520038,1038-6814
+258,Kitchen di' Saddle,"Shop C05B, G/F, Startex Industrial Building, 14 Tai Yau Street, San Po Kong",Below $50,Italian,Takeaway,,,San Po Kong,40,Western,Wong Tai Sin,114.1987634,22.3384066,8080-6907
+259,MS Asian Cuisine,"Shop11, New Tech Plaza, 34 Tai Yau Street, San Po Kong",Below $50,Vietnamese,Thai,Singaporean,,San Po Kong,40,Asian,Wong Tai Sin,114.197206,22.336706,1028-1055
+260,Dim Sum Center,"No. 22, G/F, Shung Ling Street, San Po Kong",Below $50,Guangdong,Dim Sum,,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.1958639,22.3354744,4798-3893
+261,Kamwowo,"Shop 118, 1/F, Mikiki, 638 Prince Edward Road East, San Po Kong",$101-$200,Guangdong,Japanese,Hot Pot,,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1968622,22.3335547,4624-7785
+262,Hop Lee Noodle,"G/F, 19A Yin Hing St, S, San Po Kong",Below $50,Chiu Chow,Noodles/Rice Noodles,,,San Po Kong,40,Chinese,Wong Tai Sin,114.1950302,22.3358437,4541-5229
+263,Victory Asian Limited T/A The Lifestyle Kitchen,"Shop No.10, Yin Hing Mansion,40 Yin Hing Street, San Po Kong",Below $50,Guangdong,Hot Pot,Stir-Fry,,San Po Kong,40,Hong Kong,Wong Tai Sin,114.194884,22.3355787,6043-0153
+264,Genki Sushi,"Shop Nos. 105-105A, 1/F, Mikiki,  638 Prince Edward Road West, San Po Kong",$101-$200,Japanese,Sushi/Sashimi,,,San Po Kong,300,Asian,Wong Tai Sin,114.1968622,22.3335547,7011-2301
+265,King's Dumpling,"Shop 7, LG/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East,, San Po Kong",$101-$200,Taiwan,Stir-Fry,,,San Po Kong,300,Chinese,Wong Tai Sin,114.1968622,22.3335547,6089-9828
+266,Jika Udon,"Shop G10, G/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East, San Po Kong",$51-$100,Japanese,Udon,,,San Po Kong,75,Asian,Wong Tai Sin,114.1968622,22.3335547,8387-9506
+267,Bel Pasto,"Shop 3, G/F, Winning Center, 29 Tai Yau Street, San Po Kong",Below $50,Western,Western Restaurant,Fast Food,,San Po Kong,40,Western,Wong Tai Sin,114.1982776,22.3371005,1378-0513
+268,Fulum Fishman's Wharf Restaurant,"5/F, Yue Xiu Plaa, 3-23 Ning Yuen Street, San Po Kong",$101-$200,Guangdong,Seafood,Dim Sum,Dim Sum Restaurant,San Po Kong,300,Hong Kong,Wong Tai Sin,114.1955949,22.3337886,5588-6610
+269,Provence Restaurant,"17A Hong Keung Street, San Po Kong",$201-$400,French,,,,San Po Kong,150,Western,Wong Tai Sin,114.1975224,22.3346881,3111-4142
+270,McDonald's,"Shop G02-G05, G/F, Yue Xiu Plaza, 3-23 Ning Yuen Street,, San Po Kong",Below $50,American,Hamburger,Fast Food,,San Po Kong,40,Western,Wong Tai Sin,114.1955949,22.3337886,5816-3721
+271,Bel Pasto,"No.3, G/F, Winning Center, 29 Tai Yau Street, San Po Kong, Kowloon, San Po Kong",Below $50,Western,American,Western Restaurant,Fast Food,San Po Kong,40,Western,Wong Tai Sin,114.1989259,22.3364426,6731-6274
+272,Itacho Sushi,"Shop G35, G/F, Mikiki, The Latitude Tower, 638 Prince Edward Road East,, San Po Kong",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,San Po Kong,300,Asian,Wong Tai Sin,114.1968622,22.3335547,6651-4326
+273,PUTIEN,"Shop 214, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Fujian,Seafood,Fine Dried Seafood,Stir-Fry,Diamond Hill,300,Chinese,Wong Tai Sin,114.2025004,22.341075,6256-3535
+274,DONDONYA SHOKUDO,"Shop 371, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Japanese,Curry,Udon,Food Wise Eateries,Diamond Hill,75,Asian,Wong Tai Sin,114.2025004,22.341075,5874-2705
+275,Chi Lin Vegetarian-,"Long Men Lou, Nan Lian Garden, 60 Fung Tak Road,, Diamond Hill",$101-$200,Guangdong,Vegetarian,Family Style Dining,,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.205337,22.3391646,3003-3578
+276,Nichigyu Shabu Shabu & Sukiyaki Restaurant,"Shop 311A, Level 3, Plaza Hollywood, Diamond Hill",$101-$200,Japanese,Hot Pot,Buffet,,Diamond Hill,300,Asian,Wong Tai Sin,114.2010908,22.3411805,5270-2092
+277,Xiao Wang Beef Noodle,"Shop 373, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Taiwan,Noodles/Rice Noodles,,,Diamond Hill,75,Chinese,Wong Tai Sin,114.2025004,22.341075,5911-7311
+278,Xia Mian Guan,________________1__173A____,$51-$100,Shanghai,Noodles/Rice Noodles,Stir-Fry,,Diamond Hill,75,Chinese,Wong Tai Sin,114.1788262,22.3339962,9631-5479
+279,McDonald's,"Shop 216-271, Hollywood Plaza,, Diamond Hill",Below $50,American,Hamburger,Fast Food,,Diamond Hill,40,Western,Wong Tai Sin,114.2022955,22.340722,6485-2628
+280,Godiva Chocolatier,"FT 237, L2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill, Kowloon, Diamond Hill",$51-$100,Western,Chocolate/Candy Shop,,,Diamond Hill,75,Western,Wong Tai Sin,114.2010908,22.3411805,6242-9748
+281,Food Republic,"3/F, Plaza Hollywood, Diamond Hill",$51-$100,International,Food Court,,,Diamond Hill,75,International,Wong Tai Sin,114.2022955,22.340722,8776-2764
+282,Kintan Japanese BBQ Restaurant,"Shop 311B, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Japanese,Roast Meat,All-you-can-eat,,Diamond Hill,300,Asian,Wong Tai Sin,114.2025004,22.341075,5088-1693
+283,Starbucks Coffee,"Shop 298, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,American,Salad,Coffee Shop,Casual Drink,Diamond Hill,40,Western,Wong Tai Sin,114.2025004,22.341075,1328-9157
+284,Modern China Restaurant,"Shop 312A, Level 3, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Jingchuanhu,Chinese Buns,Stir-Fry,Group Dining,Diamond Hill,300,Chinese,Wong Tai Sin,114.2025004,22.341075,4107-4806
+285,Viet's Choice,"Shop 232, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Vietnamese,Noodles/Rice Noodles,,,Diamond Hill,75,Asian,Wong Tai Sin,114.2025004,22.341075,6070-8941
+286,Pepper Lunch,____________3____________3__,$51-$100,Japanese,Teppanyaki,,,Diamond Hill,75,Asian,Wong Tai Sin,114.1180588,22.3520038,4991-5159
+287,Antoshimo Cafe & Bakery,"Shop 182, 1/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Japanese,Bakery,Coffee Shop,,Diamond Hill,40,Asian,Wong Tai Sin,114.2025004,22.341075,8433-5493
+288,BAR,"Shop 402, 3/F., Hollywood Plaza, 3 Lung Poon Street, Diamond Hill",$51-$100,Japanese,Meatless Menu,Yoshoku,,Diamond Hill,75,Asian,Wong Tai Sin,114.2025004,22.341075,7645-9626
+289,Kee Wah,"Shop 226, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Hong Kong Style,Bakery,Chinese Cake,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2025004,22.341075,6754-8198
+290,H agen-DazsH agen-Dazs,"Shop 183, Level 1, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Western,Ice Cream/yogurt,,,Diamond Hill,75,Western,Wong Tai Sin,114.2025004,22.341075,6513-9482
+291,Sapporo Ramen Miso No.1 x Karami CurryMiso No.1 x,"Shop 325, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Japanese,Ramen,Curry,Yoshoku,Diamond Hill,300,Asian,Wong Tai Sin,114.2025004,22.341075,4250-7034
+292,Toast Box,"Shop 282, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Singaporean,Bakery,Coffee Shop,,Diamond Hill,75,Asian,Wong Tai Sin,114.2025004,22.341075,1558-2370
+293,Yummy Delight,"Shop 326-327, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Japanese,Udon,,,Diamond Hill,75,Asian,Wong Tai Sin,114.2025004,22.341075,9949-3621
+294,Sushi Take Out,"Shop 10, Diamond Hill MTR Station, Diamond Hill",Below $50,Japanese,Sushi/Sashimi,,,Diamond Hill,40,Asian,Wong Tai Sin,114.2010908,22.3411805,6555-3799
+295,Genki Sushi,"Shop 234, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,Diamond Hill,300,Asian,Wong Tai Sin,114.2025004,22.341075,6607-1411
+296,Xpress Teppanyaki,"3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Japanese,Teppanyaki,,,Diamond Hill,75,Asian,Wong Tai Sin,114.2022955,22.340722,2889-3005
+297,Marks & Spencer Plaza - Food Department Marks & Spencer -,"Unit 101, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Western,International,Wine/Cigar,Vegetarian,Diamond Hill,75,Western,Wong Tai Sin,114.2022955,22.340722,7924-3812
+298,Wing Wah,"Shop 307, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Hong Kong Style,Bakery,Chinese Cake,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2025004,22.341075,4479-3798
+299,Federal Banquet,"Shop 306, Level 3, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Guangdong,Dim Sum,Chinese Buns,Stir-Fry,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.2025004,22.341075,1349-3326
+300,Hui Lau Shan,"3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Hong Kong Style,Dessert,Sweet Soup,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2022955,22.340722,3729-2793
+301,Maxim's Cake Shop,"Kiosk DIHI, Diamond Hill MTR Station, Diamond Hill",Below $50,Hong Kong Style,Bakery,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,3604-1462
+302,McCafe,____________________216-217____,Below $50,American,Bakery,Coffee Shop,,Diamond Hill,40,Western,Wong Tai Sin,114.1827058,22.2783084,7452-7178
+303,Pier 88,"Shop 203, 2-3/F., Fung Tak Shopping Centre, Fung Tak Estate, Diamond Hill",$101-$200,Guangdong,Hot Pot,Seafood,Dim Sum,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,3628-5936
+304,Tong Kee Bao Dim,"Shop 323, 3/F, Plaza Hollywood, Diamond Hill",Below $50,Hong Kong Style,Dim Sum,Chinese Buns,Takeaway,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,3701-9145
+305,Gourmet Place,"38/F,Club Aria, Aria, 51 Fung Shing Street,Ngau Chi Wan, Diamond Hill",$101-$200,International,Club House,,,Diamond Hill,300,International,Wong Tai Sin,114.2010908,22.3411805,7942-4084
+306,Hung Fook Tong,"Shop 9, Diamond Hill MTR Station, Diamond Hill",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,9519-6041
+307,McDonald's,"Shop 202, Fung Tak Shopping Centre, Fung Tak Estat, Diamond Hill",Below $50,American,Hamburger,Fast Food,,Diamond Hill,40,Western,Wong Tai Sin,114.2010908,22.3411805,3865-8171
+308,Cafe MED,"Shop 101A, 1/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Western,Western Restaurant,,,Diamond Hill,75,Western,Wong Tai Sin,114.2025004,22.341075,8170-9517
+309,Hsin Kwong Restaurant,"Shop 201, Lung Poon Court Commerical Complex, Diamond Hill",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,2788-8106
+310,Arome Bakery,"Shop 318, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Western,Bakery,,,Diamond Hill,40,Western,Wong Tai Sin,114.2025004,22.341075,9361-8756
+311,Lam Yuen Restaurant,"1A, G/F, Fu Lai House, Fushan Estate, Diamond Hill",Below $50,Hong Kong Style,Western Restaurant,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,2190-4355
+312,Pizza Hut,"Shop 321, Level 3, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Italian,Pizza,Takeaway,Western Restaurant,Diamond Hill,300,Western,Wong Tai Sin,114.2025004,22.341075,8375-2688
+313,Heichinrou,"Shop 208, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Guangdong,Seafood,Fine Dried Seafood,Dim Sum,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.2025004,22.341075,9473-1799
+314,Saint Honore Cake Shop,"Shop 15, Diamond Hill MTR Station, Diamond Hill",Below $50,Hong Kong Style,Bakery,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,3128-4609
+315,Hsin Kuang Roast Food Restaurant,"Shop 103, Lung Poon Court Commercial Centre, Diamond Hill",Below $50,Hong Kong Style,Tea Restaurant,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,8956-6226
+316,Hoixe Cake Shop,"Shop 207, Fung Tak Shopping Centre, Fung Tak Estate, Diamond Hill",Below $50,Hong Kong Style,Bakery,Takeaway,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,8102-9605
+317,Super Super Congee & Noodle,"Shop 204C, Fuk Tai Shopping Centre, Fuk Tai Estate, Diamond Hill",Below $50,Hong Kong Style,Noodles/Rice Noodles,Congee,Fast Food,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,8154-5731
+318,Cafde Coral,"Shop 204, Fung Tak Centre, Fung Tak Est, Diamond Hill",Below $50,Hong Kong Style,Meatless Menu,Fast Food,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,7385-6034
+319,T.T.T,"Shop A6,G/F,Grand View Garden,185 Hammer Hill Road, Diamond Hill",Below $50,Hong Kong Style,Food Stall Noodles,Snack Shop & Deli,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.207605,22.341971,7256-3130
+320,Fusion RiceBOWL,____________3____________3________________,Below $50,Japanese,Food Court,,,Diamond Hill,40,Asian,Wong Tai Sin,114.1180588,22.3520038,4245-5943
+321,Fairwood,"Shop Nos. L206, L207 and L208, LG2/F, Fu Yan House, Fu Shan Estate, Diamond Hill",Below $50,Hong Kong Style,Fast Food,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,4255-0337
+322,Noodle Expert,"3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Guangdong,Congee,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2022955,22.340722,1262-0872
+323,First Edible Nest,"Shop 320, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$101-$200,Guangdong,Dessert,Fine Dried Seafood,,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.2025004,22.341075,2932-6544
+324,Cheers,"Shop 337A, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$401-$800,Western,Wine/Cigar,,,Diamond Hill,600,Western,Wong Tai Sin,114.2025004,22.341075,5111-2209
+325,I Ban Janpanese Food,"3/F, Food Republic, Plaza Hollywood, Diamond Hill",Below $50,Japanese,,,,Diamond Hill,40,Asian,Wong Tai Sin,114.2010908,22.3411805,8404-8151
+326,Planet Popcorn,"Shop D, 3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Taiwan,Snack Shop & Deli,,,Diamond Hill,75,Chinese,Wong Tai Sin,114.2025004,22.341075,7033-1166
+327,Yee Hing Restaurant,"Shop 1B, Fu Lai House, Fu Shan Estate, Diamond Hill",Below $50,Hong Kong Style,Tea Restaurant,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,8732-9829
+328,Aji Ichiban,"Shop 344, Level 3, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Hong Kong Style,Snack Shop & Deli,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2025004,22.341075,4902-2557
+329,Lo Hong Ka,"Shop 302A, Level 3, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill, Diamond Hill",$51-$100,Guangdong,Dessert,,,Diamond Hill,75,Hong Kong,Wong Tai Sin,114.2010908,22.3411805,9566-1585
+330,Hong Kong Cuisine,"3/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",Below $50,Hong Kong Style,Food Court,,,Diamond Hill,40,Hong Kong,Wong Tai Sin,114.2022955,22.340722,8627-6079
+331,Fu Wah Restaurant,______________________,$101-$200,Hong Kong Style,Dim Sum Restaurant,,,Diamond Hill,300,Hong Kong,Wong Tai Sin,114.109497,22.396428,6381-0026
+332,misocool,"Shop 288, 2/F, Plaza Hollywood, 3 Lung Poon Street, Diamond Hill",$51-$100,Japanese,Ramen,Wonton/Dumpling,,Diamond Hill,75,Asian,Wong Tai Sin,114.2025004,22.341075,7826-3136
+333,M18,"Shop L103-L104, G/F, Lok Fu Plaza, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Western,Bakery,All Day Breakfast,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,3835-3305
+334,DONDONYA SHOKUDO,"Shop L211-L214, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Japanese,Curry,Udon,Food Wise Eateries,Lok Fu,75,Asian,Wong Tai Sin,114.18742,22.337608,7403-8126
+335,Oyster Station Snack & Oyster Bar,"Market Stall No 401-402, G/F, Lok Fu Plaza, Lok Fu Estate, 198 Junction Road, Kowloon, Lok Fu",$401-$800,International,Seafood,Oyster Bar,,Lok Fu,600,International,Wong Tai Sin,114.18742,22.337608,5703-3746
+336,Azabu Sabo,"Shop L224, UG2/F., Lok Fu Plaza, 198 Junction Road, Lok Fu",$101-$200,Japanese,Dessert,Ice Cream/yogurt,Curry,Lok Fu,300,Asian,Wong Tai Sin,114.18742,22.337608,9174-3835
+337,Luen Hop Hing,"Shop 4, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Hong Kong Style,Noodles/Rice Noodles,Dai Pai Dong,,Lok Fu,75,Hong Kong,Wong Tai Sin,114.18742,22.337608,7152-8685
+338,Buono Nuobo,"Shop 2101, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$101-$200,Japanese,Pizza,Meatless Menu,Yoshoku,Lok Fu,300,Asian,Wong Tai Sin,114.18742,22.337608,2923-7775
+339,Mou Mou Club,"Shop U109, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$101-$200,Japanese,Hot Pot,Meatless Menu,Food Wise Eateries,Lok Fu,300,Asian,Wong Tai Sin,114.18742,22.337608,6051-3520
+340,Sushi Dai,"Shop U108, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Japanese,Sushi/Sashimi,Meatless Menu,Food Wise Eateries,Lok Fu,40,Asian,Wong Tai Sin,114.18742,22.337608,7212-5736
+341,AOK,"Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Tea Restaurant,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,3092-4439
+342,Hideyoshi,"UNY, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Japanese,Pizza,Snack Shop & Deli,,Lok Fu,40,Asian,Wong Tai Sin,114.18742,22.337608,1370-4208
+343,Genki Sushi,"Shop No. 1157, 1/F, Lok Fu Shopping Centre Phase1, 198 Junction Road, Lok Fu",$101-$200,Japanese,Sushi/Sashimi,Sushi Bar,,Lok Fu,300,Asian,Wong Tai Sin,114.18742,22.337608,8837-8075
+344,Xia Mian Guan,"Shop3125-3126, 3/F, Lok Fu Plaza, Lok Fu",$51-$100,Shanghai,Noodles/Rice Noodles,Stir-Fry,,Lok Fu,75,Chinese,Wong Tai Sin,114.1862935,22.3377402,7690-7965
+345,Eat Chinese Restaurant,"G/F, 182-188 Junction Rd, Kam Kwok Bldg., Lok Fu",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,Lok Fu,300,Hong Kong,Wong Tai Sin,114.188012,22.3356285,2460-7177
+346,King Bakery,"Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,3064-1072
+347,TeaWood Taiwanese Cafe & Restaurant,"Shop 1108-1110, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Taiwan,Dessert,Coffee Shop,Food Wise Eateries,Lok Fu,75,Chinese,Wong Tai Sin,114.18742,22.337608,5754-1948
+348,Slim Taste,"Shop 1104, 1/F, Lok Fu Plaza, 198 Junction Road, Lok Fu",Below $50,Jingchuanhu,Ramen,,,Lok Fu,40,Chinese,Wong Tai Sin,114.18742,22.337608,9475-7547
+349,Panash,"Shop 08, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Western,Bakery,Takeaway,,Lok Fu,40,Western,Wong Tai Sin,114.18742,22.337608,3589-0494
+350,MOS Burger MOS Burger,"UN 2-15, Shop 2101, Lok Fu Plaza,  198 Junction Road, Lok Fu",Below $50,Japanese,Hamburger,Fast Food,,Lok Fu,40,Asian,Wong Tai Sin,114.18742,22.337608,1618-5726
+351,Yoshinoya,"Shop U104 & U105 UG/F, Lok Fu Shopping Centre II, 198 Junction Road, Lok Fu",$51-$100,Japanese,Fast Food,,,Lok Fu,75,Asian,Wong Tai Sin,-80.9838009,33.9579417,5687-1115
+352,Mixian Sense,"Shop 1112, 1/F, Lok Fu Plaza, 198 Junction Road, Lok Fu",Below $50,Sichuan,Noodles/Rice Noodles,,,Lok Fu,40,Chinese,Wong Tai Sin,114.18742,22.337608,7902-5114
+353,Saint Honore Cake Shop,"Shop 2118, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,1012-6969
+354,Cafe Restaurant Kobe Kitanozaka,"2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Japanese,Fast Food,Yoshoku,,Lok Fu,75,Asian,Wong Tai Sin,114.18742,22.337608,3079-9749
+355,Super Super Congee & Noodle,"Shop 1113-1114, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Noodles/Rice Noodles,Congee,Fast Food,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,7683-5802
+356,Starbucks Coffee,"Shop U215, UG 2/F, Lok Fu Plaza, 198 Junction Road, Lok Fu, Lok Fu",Below $50,American,Salad,Coffee Shop,Casual Drink,Lok Fu,40,Western,Wong Tai Sin,114.1862935,22.3377402,5425-0721
+357,Marugame Seimen,"Shop 1213, 1/F, Lok Fu Plaza, 198 Junction Road, Lok Fu",$51-$100,Japanese,Udon,,,Lok Fu,75,Asian,Wong Tai Sin,114.18742,22.337608,9020-7870
+358,Saint Honore Cake Shop,"Shop SG17-SG18, Lok Fu Shopping Centre Phase 1, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,4483-6176
+359,Pizza Hut,"Shop L201-204, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$101-$200,Italian,Pizza,Western Restaurant,,Lok Fu,300,Western,Wong Tai Sin,114.18742,22.337608,5121-2159
+360,WATEI Japanese Restaurant,"Shop U110-U111, U/F, Lok fu Centre, Lok Fu",$101-$200,Japanese,Ramen,Sushi/Sashimi,,Lok Fu,300,Asian,Wong Tai Sin,114.1862935,22.3377402,3677-9574
+361,YunNan Flavour Garden,"Shop 3112, 3/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Yunnan,Hong Kong Style,Tea Restaurant,,Lok Fu,40,Chinese,Wong Tai Sin,114.18742,22.337608,7984-9322
+362,Joy Luck House,"Shop 3106-09, 3/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Guangdong,Dim Sum,Stir-Fry,Dim Sum Restaurant,Lok Fu,75,Hong Kong,Wong Tai Sin,114.18742,22.337608,3090-0044
+363,Tai Cheong Bakery,"Shop 1105, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,7830-5655
+364,euro go go,"Shop 1121-1122, Level 1, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Western,Western Restaurant,Fast Food,Coffee Shop,Lok Fu,75,Western,Wong Tai Sin,114.18742,22.337608,3678-4223
+365,Foo Lum Palace,"Shop L206 - 211, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$101-$200,Guangdong,Dim Sum,Dim Sum Restaurant,,Lok Fu,300,Hong Kong,Wong Tai Sin,114.18742,22.337608,4338-4464
+366,Sweet GAGA,"2/F, Zone A, Lok Fu Plaza, 198 Junction Road, Lok Fu",Below $50,Western,Bakery,Ice Cream/yogurt,Chocolate/Candy Shop,Lok Fu,40,Western,Wong Tai Sin,114.1872659,22.3385753,8208-2662
+367,Tai Hing,"Shop L228, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Hong Kong Style,Chinese BBQ,Tea Restaurant,Food Wise Eateries,Lok Fu,75,Hong Kong,Wong Tai Sin,114.18742,22.337608,5579-2980
+368,Maxim's Cake Shop,"Kiosk LOF 1, Lok Fu MTR Station, Lok Fu",Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.1862935,22.3377402,5937-2402
+369,Chef Of Emperor,"UNY, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Shanghai,Food Court,,,Lok Fu,40,Chinese,Wong Tai Sin,114.18742,22.337608,2297-3563
+370,Eat East,"Shop L215, UG2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Takeaway,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,9658-3411
+371,Milk Top,"2/F, UNY, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Japanese,Dessert,Ice Cream/yogurt,Food Court,Lok Fu,40,Asian,Wong Tai Sin,114.18742,22.337608,4823-5365
+372,A-1 Bakery,"Shop L0F10, Lok Fu MTR Station, Lok Fu",Below $50,Western,Bakery,,,Lok Fu,40,Western,Wong Tai Sin,114.1862935,22.3377402,4229-9231
+373,GDM Gourmet Kitchen,"Shop 406&408, Lok Fu Market, 198 Junction Road, Lok Fu",Below $50,Italian,Takeaway,Snack Shop & Deli,Food Court,Lok Fu,40,Western,Wong Tai Sin,145.0805995,-37.8876953,9792-1098
+374,cha FOR TEA,"Shop UN2-06, UNY, 2/F., Lok Fu Plaza, 198 Junction Road, Lok Fu",Below $50,Taiwan,Taiwanese Drink,,,Lok Fu,40,Chinese,Wong Tai Sin,114.18742,22.337608,1590-8258
+375,Fairwood,"Level 2, Wang Fai Centre, Want Tau Hom Estate,, Lok Fu",Below $50,Hong Kong Style,Fast Food,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.1862935,22.3377402,6598-6337
+376,Red Dragonfly Restaurant,"Shop 3110-11, 3/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Hong Kong Style,Tea Restaurant,,,Lok Fu,75,Hong Kong,Wong Tai Sin,114.18742,22.337608,3471-6624
+377,Arome Bakery,"Shop LOF 8, Lok Fu MTR Station, Lok Fu",Below $50,Western,Bakery,,,Lok Fu,40,Western,Wong Tai Sin,114.1862935,22.3377402,7406-7899
+378,Italian Tomato,"Shop UN2-10, UNY, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Italian,Bakery,Dessert,,Lok Fu,75,Western,Wong Tai Sin,114.18742,22.337608,6322-3270
+379,Sam Tin Bakery Shop,______________________2__,Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.2092899,22.3536038,3289-1111
+380,Honeymoon Dessert,"Shop L232, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Dessert,Sweet Soup,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,3063-6324
+381,Cafde Coral,"UG1/F, Phase 2, Lok Fu Plaza, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Meatless Menu,Fast Food,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,9942-4141
+382,Hung Fook Tong,"Shop 1116, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,5499-0523
+383,BBQ Chicken Express,"Shop 19, UNY Apita, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Korean,Korean Fried Chicken,,,Lok Fu,75,Asian,Wong Tai Sin,114.18742,22.337608,6903-4914
+384,Walnut Shop,"Shop 2119, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Chocolate/Candy Shop,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,1834-7539
+385,Hung Fook Tong,"Shop LOF 7, Lok Fu MTR Station, Lok Fu",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.1862935,22.3377402,3901-3984
+386,Go Veggie Express,"Shop 2-12, UNY, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Vegetarian,Takeaway,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,3360-2333
+387,Hung Fook Tong,"Shop 1116, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,5642-8741
+388,McCafe,________________1__7____,Below $50,American,Bakery,Coffee Shop,,Lok Fu,40,Western,Wong Tai Sin,114.1730856,22.3577518,3067-7388
+389,Wing Wah,"Shop L105, Lok Fu Shopping Centre Phase 1, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Bakery,Chinese Cake,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,2404-7091
+390,Sunny Boulangerie et Patisserie,"Shop L206 - 211, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Hong Kong Style,Bakery,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,5396-3290
+391,Hoi Tin Tong,"Shop L221-L223, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,Guangdong,Herbal Tea,,,Lok Fu,40,Hong Kong,Wong Tai Sin,114.18742,22.337608,4454-0362
+392,Kentucky Fried Chicken,"Shop U201-U203, 2/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,American,Fast Food,,,Lok Fu,40,Western,Wong Tai Sin,114.18742,22.337608,9516-5918
+393,McDonald's,"Shop 7, LG/1, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",Below $50,American,Hamburger,Fast Food,,Lok Fu,40,Western,Wong Tai Sin,114.18742,22.337608,6238-1232
+394,Viet's Choice,"Shop 1103, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Vietnamese,Noodles/Rice Noodles,,,Lok Fu,75,Asian,Wong Tai Sin,114.18742,22.337608,1603-2340
+395,Domon Sapporo Ramen Domon,"Shop 1106-1107, 1/F, Lok Fu Shopping Centre, 198 Junction Road, Lok Fu",$51-$100,Japanese,Ramen,,,Lok Fu,75,Asian,Wong Tai Sin,114.18742,22.337608,1640-6417
+396,Diamond Cafe,"G/F, 37 Kam Hon House, Choi Hung Estate, Choi Hung",Below $50,Hong Kong Style,Tea Restaurant,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.2061716,22.3364689,2512-9980
+397,Ming Kee Noodle,"No. 3, Cooked Food Stall, Choi Wan Estate,, Choi Hung",Below $50,Hong Kong Style,Noodles/Rice Noodles,Cooked Food Center,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,3691-6475
+398,Tong Kee Bao Dim,"Shop CHH15, Choi Hung MTR Station, Choi Hung",Below $50,Hong Kong Style,Chinese Buns,Takeaway,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,1361-8361
+399,Tai Hing Cafe,"No. 6, Cooked Food Stall, Choi Wan Estate,, Choi Hung",Below $50,Hong Kong Style,Tea Restaurant,Cooked Food Center,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,5351-5656
+400,Kam Pik Restaurant,"G/F., 22 Kam Pik House, Choi Hung Estate,, Choi Hung",Below $50,Guangdong,Dim Sum,Stir-Fry,Dim Sum Restaurant,Choi Hung,40,Hong Kong,Wong Tai Sin,114.2054054,22.3352649,8447-7682
+401,Subway,"Shop CHH16, Choi Hung Station, Choi Hung",Below $50,Western,Meatless Menu,Takeaway,Fast Food,Choi Hung,40,Western,Wong Tai Sin,114.109497,22.396428,3416-3500
+402,McDonald's,"Shop G1, G/F, Carpark, Ping Shek Estate, Ngau Chi Wan, Choi Hung",Below $50,American,Hamburger,Fast Food,,Choi Hung,40,Western,Wong Tai Sin,114.109497,22.396428,9013-3964
+403,Gofuku Cafe Restaurant,"G/F., 26 Kam Chi Path, Ngau Chi Wan Village,, Choi Hung",Below $50,Hong Kong Style,Bakery,Noodles/Rice Noodles,Takeaway,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,1674-2884
+404,Oi Kwan Fast Food Restaurant,"Flat 11, G/F., Kam Pik House, Choi Hung Estate,, Choi Hung",Below $50,Hong Kong Style,Fast Food,Snack Shop & Deli,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.2054054,22.3352649,7248-8599
+405,Sushi Express,"Shop 4, G/F, Ping Shek Estate Carpark, Choi Hung",$51-$100,Japanese,Sushi/Sashimi,Sushi Bar,,Choi Hung,75,Asian,Wong Tai Sin,114.109497,22.396428,7158-6147
+406,KMB Staff Canteen,"Choi Hung Bus Terminus, Choi Hung Estate, Choi Hung",Below $50,Hong Kong Style,Tea Restaurant,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,8686-9473
+407,Boo Dim Lui Lee,"G/F, Ngau Chi Wan Village, 5 Wah Chi Path, Choi Hung",Below $50,Hong Kong Style,Bakery,Chinese Buns,Snack Shop & Deli,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,6640-9008
+408,Ying Hing,"No. 1, Cooked Food Stall, Choi Wan Estate,, Choi Hung",Below $50,Guangdong,Takeaway,Snack Shop & Deli,Cooked Food Center,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,9536-2339
+409,Sun Yuen Restaurant,"Stall 8-9, 2/F., Cooked Food Centre, Ngau Chi Wan, Choi Hung",Below $50,Guangdong,Dim Sum,Cooked Food Center,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,6338-0518
+410,Cafe de Itamomo,"Shop A209, 2/F, Choi Wan Complex Centre, Choi Wan Est, 45 Clear Water Bay Road, Choi Hung",Below $50,Western,Western Restaurant,Food Wise Eateries,,Choi Hung,40,Western,Wong Tai Sin,114.109497,22.396428,7788-8958
+411,McDonald's,"Shops A104&A115;, UG/F., Choi Wan Complex Centre Phase II, Choi Wan Est., 45 Clear Water Bay Road, Choi Hung",Below $50,American,Hamburger,Fast Food,,Choi Hung,40,Western,Wong Tai Sin,36.6570958,-1.2068462,3972-3886
+412,Kam Wah Restaurant,"109-114, Tsuen Shek House, Ping Shek Estate,, Choi Hung",Below $50,Hong Kong Style,Bakery,Takeaway,Tea Restaurant,Choi Hung,40,Hong Kong,Wong Tai Sin,114.2090876,22.333733,2263-0165
+413,Arome Bakery,"Shop CCH20, Choi Hung MTR Station, Choi Hung",Below $50,Western,Bakery,,,Choi Hung,40,Western,Wong Tai Sin,114.109497,22.396428,7080-6436
+414,Bun Kee Congee & Noodle Foods,"109-112, G/F., Yuk Shek House, Ping Shek Estate, Choi Hung",$51-$100,Hong Kong Style,Tea Restaurant,,,Choi Hung,75,Hong Kong,Wong Tai Sin,114.2096194,22.333543,4414-3604
+415,Taipan Bread & Cakes,"Shop 14, Choi Hung MTR Station,, Choi Hung",Below $50,Western,Bakery,,,Choi Hung,40,Western,Wong Tai Sin,114.109497,22.396428,4170-4686
+416,Moon Wu Cafe,"G/F., 3 Kam Chi Path, Ngau Chi Wan Village,, Choi Hung",Below $50,Hong Kong Style,Noodles/Rice Noodles,Stir-Fry,Tea Restaurant,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,4964-5798
+417,Fat Kee Food Shop,"Stall 2&3, 2/F., Cooked Food Centre, Ngau Chi Wan, Choi Hung",Below $50,Hong Kong Style,Takeaway,Fast Food,Cooked Food Center,Choi Hung,40,Hong Kong,Wong Tai Sin,13.0223636,46.8847183,2150-8413
+418,Cafde Coral,________________8________________B201A__,Below $50,Hong Kong Style,Meatless Menu,Fast Food,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,5427-5163
+419,Bao Dim Sin Seng,"Shop A103, Cho Wan Commercial Complex, Choi Hung",Below $50,Hong Kong Style,Chinese Buns,Meatless Menu,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,6599-3817
+420,YING FAI COFFEE HOUSE,________________29______,Below $50,Hong Kong Style,Coffee Shop,Tea Restaurant,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.17225,22.2750045,6674-7728
+421,Maxim's Cake Shop,"Kiosk CHH 3, Choi Hung MTR Station, Choi Hung",Below $50,Hong Kong Style,Bakery,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,3373-7012
+422,Hung Fook Tong,"Shop 16, Choi Hung MTR Station, Choi Hung",Below $50,Guangdong,Herbal Tea,Herbal Cuisine,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,7103-2212
+423,Shing Fat Restaurant,"Shop A3-9, Choi Wan Complex, Choi Wan Estate, Choi Hung",$51-$100,Hong Kong Style,Noodles/Rice Noodles,Congee,Takeaway,Choi Hung,75,Hong Kong,Wong Tai Sin,114.109497,22.396428,4282-4257
+424,Tokyo Bakery,"35, G/F, Kam Hon House, Choi Hung Estate, Choi Hung",Below $50,Hong Kong Style,Bakery,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.2061716,22.3364689,4505-5532
+425,Ho Choi Seafood Restaurant,"3-4/F, Choi Wan Complex Centre Phase ll, Choi Wan Estate, 45 Clear Water Bay Road, Choi Hung",$101-$200,Guangdong,Seafood,Dim Sum,Dim Sum Restaurant,Choi Hung,300,Hong Kong,Wong Tai Sin,114.109497,22.396428,3666-7222
+426,C3,"Shop A319, Choi Wan Commercial Complex, 45 Clear Water Bay Road, Choi Hung",Below $50,Western,Bakery,,,Choi Hung,40,Western,Wong Tai Sin,114.109497,22.396428,2432-7348
+427,Hoi Tin Tong,"Shop M05, InfinityEight, 8 Clear Water Bay Road, Choi Hung",Below $50,Guangdong,Herbal Tea,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,6653-0637
+428,Kam Yuen Cafe,"Shop 9, Cooked Food Centre, Choi Wan Estate, Choi Hung",Below $50,Hong Kong Style,Takeaway,Tea Restaurant,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,2779-9618
+429,Choi Wong Chiu Chau Restaurant,"G/F, 4 Kwai Chi Path, Ngau Chi Wan , Choi Hung",$51-$100,Chiu Chow,Dai Pai Dong,,,Choi Hung,75,Chinese,Wong Tai Sin,114.109497,22.396428,4674-4632
+430,Thousand Billion Restaurant,"5 Fu Chi Path, Ngau Chi Wan, Choi Hung",Below $50,Hong Kong Style,Tea Restaurant,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.2079042,22.3357619,1656-5934
+431,Maple Cafe,"Shop 25, G/F, Kam Pik House, Choi Hung Estate, Choi Hung",Below $50,Hong Kong Style,,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,2714-6546
+432,Perfect Restaurant,"G/F., 8 Kam Chi Path, Ngau Chi Wan Village,, Choi Hung",Below $50,Hong Kong Style,Noodles/Rice Noodles,Takeaway,Tea Restaurant,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,7456-0939
+433,Fairwood,"Shop 1, Ping Shek Market, Market Block, Ping Shek Estate,, Choi Hung",Below $50,Hong Kong Style,Fast Food,,,Choi Hung,40,Hong Kong,Wong Tai Sin,114.109497,22.396428,3271-5925
+434,Nice Inn Restaurant,"1/F, Ping Shek Estate, Choi Hung, Choi Hung",$101-$200,Guangdong,Dim Sum Restaurant,,,Choi Hung,300,Hong Kong,Wong Tai Sin,114.109497,22.396428,6751-7329
+435,Igarashi Japanese Restaurant,____________________12____,$51-$100,Japanese,Ramen,Curry,Sushi/Sashimi,Choi Hung,75,Asian,Wong Tai Sin,114.2591219,22.3111356,7130-1762

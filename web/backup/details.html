@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SARC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="./style/style2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <style>
+    .demo-card-wide>.mdl-card__title {
+      color: rgb(0, 0, 0);
+      height: 130px;
+      background: url('./src/bg.jpg') center / cover;
+    }
+  </style>
+</head>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <header class="mdl-layout__header">
+
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title"></span>
+    </div>
+
+  </header>
+
+
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title" id="res_name">Menu</span>
+
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Logout</a>
+    </nav>
+
+  </div>
+
+  <main class="mdl-layout__content">
+    <script>
+      var parameterValue = decodeURIComponent(window.location.search.match(/(\?|&)id\=([^&]*)/)[2]);
+      var text = "";
+      console.log(parameterValue);
+      fetch('./APICalling/GetOneRestaurant.php?id=' + parameterValue)
+        .then((res) => { return res.json() })
+        .then((data) => {
+          console.log(data);
+          text += "<a href='https://maps.google.com/?q=" + data.restaurant_list[0].lat + "," + data.restaurant_list[0].lon + "' target='_blank'>";
+          text += "<img src='https://maps.googleapis.com/maps/api/staticmap?markers=" + data.restaurant_list[0].lat + "," + data.restaurant_list[0].lon + "&size=460x250&zoom=16&key=AIzaSyDJLN_-QKHyenSgYthFaODRAfqxLGHAXCg' alt=" + data.restaurant_list[0].name + " class='img-responsive' width='410'>";
+          text += "</a><br>";
+
+          document.getElementsByClassName("mdl-layout-title")[0].insertAdjacentHTML('beforeend', data.restaurant_list[0].name);
+        })
+
+      fetch('./APICalling/GetComment.php?id=' + parameterValue)
+        .then((res) => { return res.json() })
+        .then((data) => {
+          text += "<table class='mdl-data-table mdl-js-data-table mdl-shadow--2dp' width='400'>";
+          text += "<thead><tr>" +
+            "<th class='mdl-data-table__cell--non-numeric'>Comments</th>" +
+            "</thead><tody>";
+          console.log(data);
+          var Quality = 0;
+          var Price = 0;
+          var General = 0;
+          var Service = 0;
+          var Style = 0;
+
+          for (var i = 0; i < data.comment_list.length; i++) {
+            if (data.comment_list[i].AMBIENCEGENERAL == 1)
+              General++;
+            if (data.comment_list[i].LOCATIONGENERAL == 1)
+              General++;
+            if (data.comment_list[i].RESTAURANTGENERAL == 1)
+              General++;
+            if (data.comment_list[i].RESTAURANTMISCELLANEOUS == 1)
+              General++;
+            if (data.comment_list[i].SERVICEGENERAL == 1)
+              Service++;
+            if (data.comment_list[i].DRINKSSTYLE_OPTIONS == 1)
+              Style++;
+            if (data.comment_list[i].FOODSTYLE_OPTIONS == 1)
+              Style++;
+            if (data.comment_list[i].DRINKSQUALITY == 1)
+              Quality++;
+            if (data.comment_list[i].FOODQUALITY == 1)
+              Quality++;
+            if (data.comment_list[i].DRINKSPRICES == 1)
+              General++;
+            if (data.comment_list[i].FOODPRICES == 1)
+              Price++;
+            if (data.comment_list[i].RESTAURANTPRICES == 1)
+              Price++;
+            text += "<tr><td class='mdl-data-table__cell--non-numeric'>" + data.comment_list[i].content +"("+data.comment_list[i].post_date +")</td></tr>";
+            console.log(data.comment_list[i].content.length);
+          }
+          text += "<button type='button' class='mdl-chip'><span class='mdl-chip__text'>Quality(" + Quality + ")</span></button>";
+          text += "<button type='button' class='mdl-chip'><span class='mdl-chip__text'>Price(" + Price + ")</span></button>";
+          text += "<button type='button' class='mdl-chip'><span class='mdl-chip__text'>General(" + General + ")</span></button>";
+          text += "<button type='button' class='mdl-chip'><span class='mdl-chip__text'>Service(" + Service + ")</span></button>";
+          text += "<button type='button' class='mdl-chip'><span class='mdl-chip__text'>Style(" + Style + ")</span></button>";
+
+          document.getElementById("cards").insertAdjacentHTML('beforeend', text);
+        })
+    </script>
+
+    <body>
+
+      <div class="mdl-cell mdl-cell--2-col mdl-cell--4-col-phone page-content" id="cards">
+
+      </div>
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-phone page-content">
+        <!-- Floating Multiline Textfield -->
+        <form action="" method="POST" id="comment_form">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+
+            <input type='hidden' id='res_id' value='1'>
+
+            <input class="mdl-textfield__input" type="text" id="comments">
+            <label class="mdl-textfield__label" id="content" for="comments">Please input you comments...</label>
+          </div>
+          <button id="submit-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Submit Comment</button>
+          <div id="submit-toast" class="mdl-js-snackbar mdl-snackbar">
+            <div class="mdl-snackbar__text"></div>
+            <button class="mdl-snackbar__action" type="button"></button>
+          </div>
+        </form>
+      </div>
+
+    </body>
+</div>
+
+</main>
+</div>
+
+</div>
+<script>
+    (function () {
+      'use strict';
+      var snackbarContainer = document.querySelector('#submit-toast');
+      var showToastButton = document.querySelector('#submit-show-toast');
+      showToastButton.addEventListener('click', function () {
+        'use strict';
+        var data = { message: 'Comment Submitted' };
+        snackbarContainer.MaterialSnackbar.showSnackbar(data);
+
+        console.log("res_id :" + parameterValue);
+        console.log("content:" + document.getElementById('comments').value);
+        $.post("./APICalling/CreateComment.php", {
+          res_id: parameterValue,
+          content: document.getElementById('comments').value
+        }, function (data, status) {
+          alert("Data: " + data + "Status: " + status);
+        });
+        document.getElementById('comments').value = '';
+        window.location.reload(true);
+      });
+    }());
+</script>
+
+</html>

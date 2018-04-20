@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SARC</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="./style/style2.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <style>
+    .demo-card-wide>.mdl-card__title {
+      color: rgb(233, 233, 233);
+      height: 130px;
+      background: url('./src/bg.jpg') center / cover;
+    }
+  </style>
+</head>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <header class="mdl-layout__header">
+
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">SARC</span>
+    </div>
+
+  </header>
+
+
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+
+    <nav class="mdl-navigation">
+
+    </nav>
+
+  </div>
+
+  <main class="mdl-layout__content">
+    <script>
+      var request = new XMLHttpRequest();
+      var parameterValue = decodeURIComponent(window.location.search.match(/(\?|&)region\=([^&]*)/)[2]);
+      console.log(parameterValue);
+      request.open('GET', './APICalling/GetRegionRestaurant.php?region='+parameterValue, true);
+
+      request.onload = function () {
+        var data = JSON.parse(this.response);
+        var text = "";
+        console.log(data);
+
+        for (var i = 0; i < data.restaurant_list.length; i++) {
+          text += "<div class='demo-card-wide mdl-card mdl-shadow--2dp'><div class='mdl-card__title'><h2 class='mdl-card__title-text'>";
+          text += data.restaurant_list[i].name + "</h2> </div> <div class='mdl-card__supporting-text'>";
+          text += data.restaurant_list[i].simp_type + "</div> <div class='mdl-card__actions mdl-card--border'> <a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='../FYP/details.html?id="+data.restaurant_list[i].id+"'>"
+          text += "More </a></div ><div class='mdl-card__menu'>" +
+            "<button class='mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect'>" +
+            "<i class='material-icons'>share</i></button></div></div>";
+        }
+                
+        document.getElementById("cards").insertAdjacentHTML('beforeend', text);
+      
+      }
+      request.send();
+      request = new XMLHttpRequest();
+      request.open('GET', './APICalling/GetRegion.php', true);
+
+      request.onload = function () {
+        var region = JSON.parse(this.response)
+        var text = "";
+        for (var i = 0; i < region.region_list.length; i++) {
+        text += "<a class='mdl-navigation__link' href='../FYP/searchbyRegion.html?region="+region.region_list[i].region+"'>"+region.region_list[i].region+"</a>";
+        console.log("region "+region.region_list[0].region);
+      }
+      document.getElementsByClassName('mdl-navigation')[0].insertAdjacentHTML('beforeend',text);
+      }
+      
+      request.send();
+    </script>
+
+    <body>
+      <div class="page-content" id="cards">
+
+
+
+    </body>
+    </div>
+
+  </main>
+</div>
+
+</html>

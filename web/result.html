@@ -1,0 +1,103 @@
+<html>
+<head><title>Twitter Sentiment Analysis</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssgrids/grids-min.css" />
+    <link rel="stylesheet" type="text/css" href="style/styles.css" />
+</head>
+<body>
+    <div class="yui3-g" id="doc">
+    <div class="yui3-u" id="hd">
+        <h2> Twitter Sentiment Analyzer </h2>
+    </div>
+    <div class="yui3-u" id="bd">        
+        <form name="keyform" id="key-form" method="get" onSubmit="return checkEmpty(this);">
+        <p><input type="text" value="" name="keyword" id="keyword"/><input type="submit" value="Search" id="sub"/></p>        
+        <div id="timeframe">            
+                <input type="radio" name="time" id="today" value="today" checked="true">Today</input>
+                <input type="radio" name="time" id="lastweek" value="lastweek">Last 7 days</input>
+        </div>
+        <div id="choice">
+            <input type="radio" name="method" id ="naivebayes" value="naivebayes">Naive Bayes</input>
+        </div>
+        </form>       
+        <div id="results">            
+<div id="result-chart"></div><div id="content"><div id="left"><h3>Positive</h3><ul><li title="Jan 08">GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island ki… https://t.co/Ha5LSSz6Qf<form><input type="radio" name="GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island ki… https://t.co/Ha5LSSz6Qf" value = "positive" checked> Positive<input type="radio" name="GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island ki… https://t.co/Ha5LSSz6Qf" value = "neutral"> Neutral<input type="radio" name="GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island ki… https://t.co/Ha5LSSz6Qf" value = "negative" > Negative</form></li><li title="Jan 08">This is everything. Wow.  The power in this speech is beyond powerful and so much truth. https://t.co/yKeG0DabhJ<form><input type="radio" name="This is everything. Wow.  The power in this speech is beyond powerful and so much truth. https://t.co/yKeG0DabhJ" value = "positive" checked> Positive<input type="radio" name="This is everything. Wow.  The power in this speech is beyond powerful and so much truth. https://t.co/yKeG0DabhJ" value = "neutral"> Neutral<input type="radio" name="This is everything. Wow.  The power in this speech is beyond powerful and so much truth. https://t.co/yKeG0DabhJ" value = "negative" > Negative</form></li><li title="Jan 08">Window to Save World's Coral Reefs Closing Rapidly - National Geographic https://t.co/qLx4MKum3X<form><input type="radio" name="Window to Save World's Coral Reefs Closing Rapidly - National Geographic https://t.co/qLx4MKum3X" value = "positive" checked> Positive<input type="radio" name="Window to Save World's Coral Reefs Closing Rapidly - National Geographic https://t.co/qLx4MKum3X" value = "neutral"> Neutral<input type="radio" name="Window to Save World's Coral Reefs Closing Rapidly - National Geographic https://t.co/qLx4MKum3X" value = "negative" > Negative</form></li><li title="Jan 08">APPLE IS A RED BANANA<form><input type="radio" name="APPLE IS A RED BANANA" value = "positive" checked> Positive<input type="radio" name="APPLE IS A RED BANANA" value = "neutral"> Neutral<input type="radio" name="APPLE IS A RED BANANA" value = "negative" > Negative</form></li></ul><input type="submit"></div><div id="middle"><h3>Neutral</h3><ul><li title="Jan 08">#MIXNINE Part.4
+Now Available on iTunes and Apple Music
+
+iTunes : https://t.co/PUrdTDciwh
+Apple Music :… https://t.co/MChIYbPOCs<form><input type="radio" name="#MIXNINE Part.4
+Now Available on iTunes and Apple Music
+
+iTunes : https://t.co/PUrdTDciwh
+Apple Music :… https://t.co/MChIYbPOCs" value = "positive" > Positive<input type="radio" name="#MIXNINE Part.4
+Now Available on iTunes and Apple Music
+
+iTunes : https://t.co/PUrdTDciwh
+Apple Music :… https://t.co/MChIYbPOCs" value = "neutral" checked> Neutral<input type="radio" name="#MIXNINE Part.4
+Now Available on iTunes and Apple Music
+
+iTunes : https://t.co/PUrdTDciwh
+Apple Music :… https://t.co/MChIYbPOCs" value = "negative" > Negative</form></li><li title="Jan 08">RT @dlcharts: 🇺🇸 iTunes US:
+
+#82 (+5) Tell Me You Love Me (Dave Audé Remix) *new peak*
+https://t.co/7iXnpfswax<form><input type="radio" name="RT @dlcharts: 🇺🇸 iTunes US:
+
+#82 (+5) Tell Me You Love Me (Dave Audé Remix) *new peak*
+https://t.co/7iXnpfswax" value = "positive" > Positive<input type="radio" name="RT @dlcharts: 🇺🇸 iTunes US:
+
+#82 (+5) Tell Me You Love Me (Dave Audé Remix) *new peak*
+https://t.co/7iXnpfswax" value = "neutral" checked> Neutral<input type="radio" name="RT @dlcharts: 🇺🇸 iTunes US:
+
+#82 (+5) Tell Me You Love Me (Dave Audé Remix) *new peak*
+https://t.co/7iXnpfswax" value = "negative" > Negative</form></li><li title="Jan 08">RT @_MG_: BadUSB Cable #2. HID attack through an Apple MacBook USB-C charger. Great for shared workspaces!
+
+Build info coming this month. S…<form><input type="radio" name="RT @_MG_: BadUSB Cable #2. HID attack through an Apple MacBook USB-C charger. Great for shared workspaces!
+
+Build info coming this month. S…" value = "positive" > Positive<input type="radio" name="RT @_MG_: BadUSB Cable #2. HID attack through an Apple MacBook USB-C charger. Great for shared workspaces!
+
+Build info coming this month. S…" value = "neutral" checked> Neutral<input type="radio" name="RT @_MG_: BadUSB Cable #2. HID attack through an Apple MacBook USB-C charger. Great for shared workspaces!
+
+Build info coming this month. S…" value = "negative" > Negative</form></li><li title="Jan 08">RT @DallasBlack78: Had to get Apple Music after I was having sex listening to pandora, song changed &amp; mid stroke all I heard was: Oh Oh Oh…<form><input type="radio" name="RT @DallasBlack78: Had to get Apple Music after I was having sex listening to pandora, song changed &amp; mid stroke all I heard was: Oh Oh Oh…" value = "positive" > Positive<input type="radio" name="RT @DallasBlack78: Had to get Apple Music after I was having sex listening to pandora, song changed &amp; mid stroke all I heard was: Oh Oh Oh…" value = "neutral" checked> Neutral<input type="radio" name="RT @DallasBlack78: Had to get Apple Music after I was having sex listening to pandora, song changed &amp; mid stroke all I heard was: Oh Oh Oh…" value = "negative" > Negative</form></li><li title="Jan 08">RT @TaikaWaititi: GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island kingdom…<form><input type="radio" name="RT @TaikaWaititi: GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island kingdom…" value = "positive" > Positive<input type="radio" name="RT @TaikaWaititi: GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island kingdom…" value = "neutral" checked> Neutral<input type="radio" name="RT @TaikaWaititi: GAME OVER Million Dollar Baby! In 2005 crooked Hilary Swanky was caught smuggling an apple into the sweet island kingdom…" value = "negative" > Negative</form></li><li title="Jan 08">RT @ComedianBeaty: @News3LV @ShrinersOpen @KimNews3LV @DanaNews3LV Be careful smoking Weed .. went thru a crosswalk in a Roundabout and end…<form><input type="radio" name="RT @ComedianBeaty: @News3LV @ShrinersOpen @KimNews3LV @DanaNews3LV Be careful smoking Weed .. went thru a crosswalk in a Roundabout and end…" value = "positive" > Positive<input type="radio" name="RT @ComedianBeaty: @News3LV @ShrinersOpen @KimNews3LV @DanaNews3LV Be careful smoking Weed .. went thru a crosswalk in a Roundabout and end…" value = "neutral" checked> Neutral<input type="radio" name="RT @ComedianBeaty: @News3LV @ShrinersOpen @KimNews3LV @DanaNews3LV Be careful smoking Weed .. went thru a crosswalk in a Roundabout and end…" value = "negative" > Negative</form></li><li title="Jan 08">RT @KierahLagrave: This is what Brad from pie kappa apple is doing when he doesn’t text you back https://t.co/ZT9eI7wTPc<form><input type="radio" name="RT @KierahLagrave: This is what Brad from pie kappa apple is doing when he doesn’t text you back https://t.co/ZT9eI7wTPc" value = "positive" > Positive<input type="radio" name="RT @KierahLagrave: This is what Brad from pie kappa apple is doing when he doesn’t text you back https://t.co/ZT9eI7wTPc" value = "neutral" checked> Neutral<input type="radio" name="RT @KierahLagrave: This is what Brad from pie kappa apple is doing when he doesn’t text you back https://t.co/ZT9eI7wTPc" value = "negative" > Negative</form></li><li title="Jan 08">RT @ComicsDougout: PROCEED WITH CAUTION: HEREIN LIES IRREVERENCE!! The #AllNew #AllDifferent #Revamped #Rebooted Comics DOUGOUT™ #Podcast V…<form><input type="radio" name="RT @ComicsDougout: PROCEED WITH CAUTION: HEREIN LIES IRREVERENCE!! The #AllNew #AllDifferent #Revamped #Rebooted Comics DOUGOUT™ #Podcast V…" value = "positive" > Positive<input type="radio" name="RT @ComicsDougout: PROCEED WITH CAUTION: HEREIN LIES IRREVERENCE!! The #AllNew #AllDifferent #Revamped #Rebooted Comics DOUGOUT™ #Podcast V…" value = "neutral" checked> Neutral<input type="radio" name="RT @ComicsDougout: PROCEED WITH CAUTION: HEREIN LIES IRREVERENCE!! The #AllNew #AllDifferent #Revamped #Rebooted Comics DOUGOUT™ #Podcast V…" value = "negative" > Negative</form></li><li title="Jan 08">RT @BrickMoonFic: #SubscriptionSunday #SubscriptionSunday Subscribe to the BMF Podcast. If you're already subscribed share it with a friend…<form><input type="radio" name="RT @BrickMoonFic: #SubscriptionSunday #SubscriptionSunday Subscribe to the BMF Podcast. If you're already subscribed share it with a friend…" value = "positive" > Positive<input type="radio" name="RT @BrickMoonFic: #SubscriptionSunday #SubscriptionSunday Subscribe to the BMF Podcast. If you're already subscribed share it with a friend…" value = "neutral" checked> Neutral<input type="radio" name="RT @BrickMoonFic: #SubscriptionSunday #SubscriptionSunday Subscribe to the BMF Podcast. If you're already subscribed share it with a friend…" value = "negative" > Negative</form></li></ul><input type="submit"></div><div id="right"><h3>Negative</h3><ul><li title="Jan 08">its “hearts are breaking”... apple music got a lot of my lyrics wrong but im not mad just disappointed. @Genius is… https://t.co/yR0KmHtZ1K<form><input type="radio" name="its “hearts are breaking”... apple music got a lot of my lyrics wrong but im not mad just disappointed. @Genius is… https://t.co/yR0KmHtZ1K" value = "positive"> Positive<input type="radio" name="its “hearts are breaking”... apple music got a lot of my lyrics wrong but im not mad just disappointed. @Genius is… https://t.co/yR0KmHtZ1K" value = "neutral"> Neutral<input type="radio" name="its “hearts are breaking”... apple music got a lot of my lyrics wrong but im not mad just disappointed. @Genius is… https://t.co/yR0KmHtZ1K" value = "negative" checked> Negative</form></li><li title="Jan 08">I’m not crying, you are  https://t.co/5YvXO2OnRL<form><input type="radio" name="I’m not crying, you are  https://t.co/5YvXO2OnRL" value = "positive"> Positive<input type="radio" name="I’m not crying, you are  https://t.co/5YvXO2OnRL" value = "neutral"> Neutral<input type="radio" name="I’m not crying, you are  https://t.co/5YvXO2OnRL" value = "negative" checked> Negative</form></li></ul><input type="submit"></div></div>        
+            </div>
+        </div>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+            google.load("visualization", "1", {packages:["corechart"]});
+            google.setOnLoadCallback(drawChart);
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+        ['Sentiment', 'Count'],['Positive',  4],['Neutral',  9],['Negative',  2]
+                ]);
+    
+                var options = {
+                  'title': 'Sentiment Classification',
+                  'titleTextStyle': {'fontSize': 15},
+                  'hAxis': {'textStyle': {'fontSize': 15}},
+                  'vAxis': {'textStyle': {'fontSize': 15}},
+                  'legend' : {'position' : 'none'}
+                };
+        
+                var chart = new google.visualization.ColumnChart(document.getElementById('result-chart'));
+                chart.draw(data, options);      
+            }
+            document.getElementById("naivebayes").checked=true;document.getElementById("today").checked=true;document.getElementById("keyword").value="apple";        
+        function checkEmpty(f) {
+            if (f.keyword.value === "") {
+                alert('Please enter a valid keyword');
+                return false;
+            }else{
+                f.submit();
+                return true;
+            }
+        }
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-31119754-1']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();   
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+  }
+.demo-card-wide > .mdl-card__menu {
+    color: rgb(68, 66, 66);
+  }
+  td {
+    white-space: normal !important;
+    text-align: left !important;
+  }
+  table {
+   width:100%;
+   table-layout: fixed;
+  }
