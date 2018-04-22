@@ -34,5 +34,4 @@ if($countNum > 0){
         array("message" => "No price info found.")
     );
 }
-
 ?>

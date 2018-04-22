@@ -112,8 +112,6 @@
 			
 			$keywords=htmlspecialchars(strip_tags($keywords));
 			$keywords2=htmlspecialchars(strip_tags($keywords2));
-			//$keywords = "%{$keywords}%";
-			//$keywords2 = "%{$keywords2}%";
 			
     		// bind id of product to be updated
     		$stmt->bindParam(1, $keywords);

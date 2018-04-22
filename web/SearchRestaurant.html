@@ -29,95 +29,101 @@
 
 
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Menu</span>
+    <span class="mdl-layout-title"></span>
 
     <nav class="mdl-navigation">
 
     </nav>
-
+    <button onclick="window.location.href='./index.html'" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+      Go Back
+    </button>
   </div>
 
   <main class="mdl-layout__content">
     <script>
       var text = "";
-    var request = new XMLHttpRequest();
+      var request = new XMLHttpRequest();
       request.open('GET', './APICalling/GetType.php', true);
 
       request.onload = function () {
         var type = JSON.parse(this.response);
-        
+
         text += "<H3>Search by type:</H3>"
         text += "<select id='#type' onchange='save1(this.value)'>";
         for (var i = 0; i < type.type_list.length; i++) {
-          text += "<option>"+type.type_list[i].simp_type+"</option>";
-          
+          text += "<option>" + type.type_list[i].simp_type + "</option>";
+
           console.log("type: " + type.type_list[0].simp_type);
         }
-         text += "</select>";
-        text +="<hr>";
+        text += "</select>";
+        text += "<hr>";
         document.getElementById('cards').insertAdjacentHTML('beforeend', text);
       }
       request.send();
-      </script>
-      <script>
-     var request = new XMLHttpRequest();
+    </script>
+    <script>
+      var request = new XMLHttpRequest();
       request.open('GET', './APICalling/GetPrice.php', true);
       var text2 = "";
       request.onload = function () {
-        
-      var price = JSON.parse(this.response);
-      text2 += "<H3>Search by price range:</H3>"
-      text2 += "<select id='#price' onchange='save2(this.value)'>";
-      for (var x = 0; x < price.price_list.length; x++) {
-          text2 += "<option>"+price.price_list[x].price+"</option>";
+
+        var price = JSON.parse(this.response);
+        text2 += "<H3>Search by price range:</H3>"
+        text2 += "<select id='#price' onchange='save2(this.value)'>";
+        for (var x = 0; x < price.price_list.length; x++) {
+          text2 += "<option>" + price.price_list[x].price + "</option>";
         }
         text2 += "</select>";
-        //text += "<button onclick='window.location.href='./SearchResult.html?type="+$('.type:checked').val()+"&price="+$('.price:checked').val()+"' class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect'>Begin Searching</button>";
-        //console.log("price: " + document.getElementsByName('options1').values);
         document.getElementById('price').insertAdjacentHTML('beforeend', text2);
-        
-        }
-        
-        request.send();
+
+      }
+
+      request.send();
     </script>
 
     <body>
       <div class="page-content" id="cards">
-      
 
-  
+
+
       </div>
       <div class="page-content" id="price">
-      
 
-  
-        </div>
-        <button id="submit-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Submit Comment</button>
-          <div id="submit-toast" class="mdl-js-snackbar mdl-snackbar">
-            <div class="mdl-snackbar__text"></div>
-            <button class="mdl-snackbar__action" type="button"></button>
+
+
+      </div>
+      <button id="submit-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Submit Comment</button>
+      <div id="submit-toast" class="mdl-js-snackbar mdl-snackbar">
+        <div class="mdl-snackbar__text"></div>
+        <button class="mdl-snackbar__action" type="button"></button>
     </body>
 
 
   </main>
-</div>
-<script>
-  var etype;
-  var eprice;
-  function save1(key){etype = key; console.log(etype);}
-  function save2(key){eprice = key; console.log(eprice);}
-  
+  </div>
+  <script>
+    var etype = "Western";
+    var eprice = "Below $50";
+
+    function save1(key) {
+      etype = key;
+      console.log(etype);
+    }
+
+    function save2(key) {
+      eprice = key;
+      console.log(eprice);
+    }
+
     (function () {
       'use strict';
       var snackbarContainer = document.querySelector('#submit-toast');
       var showToastButton = document.querySelector('#submit-show-toast');
       showToastButton.addEventListener('click', function () {
         'use strict';
-        location.href="./SearchResult.html?type="+etype+"&price="+eprice+"";
-        //document.getElementById('comments').value = '';
-        //setTimeout(function() {  },0);
-        // window.location.reload(true);
+        location.href = "./SearchResult.html?type=" + etype + "&price=" + eprice + "";
       });
     }());
-</script>
+  </script>
+
 </html>

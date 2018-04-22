@@ -51,21 +51,7 @@ $restaurant_items = array(
     echo json_encode($restaurant_arr);
 }else{
     echo json_encode(
-        array("message" => "No Comment found.")
+        array("message" => "No restaurant found.")
     );
 }
-
-
-
-/*
-$comment->getOneResInfo();
-
-$comment_items = array(
-            "comment_id" => $comment->comment_id,
-            "content" => $comment->comment_content,
-            "restaurant_id" => $comment->restaurant_id,
-            "post_date" => $comment->post_date
-        );
-print_r(json_encode($comment_items));
-*/
 ?>

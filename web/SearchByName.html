@@ -28,7 +28,7 @@
 
 
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
+    <span class="mdl-layout-title">Find By Region</span>
 
     <nav class="mdl-navigation">
 
@@ -41,7 +41,7 @@
       var request = new XMLHttpRequest();
       var parameterValue = decodeURIComponent(window.location.search.match(/(\?|&)name\=([^&]*)/)[2]);
       console.log(parameterValue);
-      request.open('GET', './APICalling/SearchRestaurantByName.php?name='+parameterValue, true);
+      request.open('GET', './APICalling/SearchRestaurantByName.php?name=' + parameterValue, true);
 
       request.onload = function () {
         var data = JSON.parse(this.response);
@@ -49,16 +49,19 @@
         console.log(data);
 
         for (var i = 0; i < data.restaurant_list.length; i++) {
-          text += "<div class='demo-card-wide mdl-card mdl-shadow--2dp'><div class='mdl-card__title'><h2 class='mdl-card__title-text'>";
+          text +=
+            "<div class='demo-card-wide mdl-card mdl-shadow--2dp'><div class='mdl-card__title'><h2 class='mdl-card__title-text'>";
           text += data.restaurant_list[i].name + "</h2> </div> <div class='mdl-card__supporting-text'>";
-          text += data.restaurant_list[i].simp_type + "</div> <div class='mdl-card__actions mdl-card--border'> <a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='../FYP/details.html?id="+data.restaurant_list[i].id+"'>"
+          text += data.restaurant_list[i].simp_type +
+            "</div> <div class='mdl-card__actions mdl-card--border'> <a class='mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect' href='../FYP/details.html?id=" +
+            data.restaurant_list[i].id + "'>"
           text += "More </a></div ><div class='mdl-card__menu'>" +
             "<button class='mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect'>" +
             "<i class='material-icons'>share</i></button></div></div>";
         }
-                
+
         document.getElementById("cards").insertAdjacentHTML('beforeend', text);
-      
+
       }
       request.send();
       request = new XMLHttpRequest();
@@ -68,12 +71,13 @@
         var region = JSON.parse(this.response)
         var text = "";
         for (var i = 0; i < region.region_list.length; i++) {
-        text += "<a class='mdl-navigation__link' href='../FYP/searchbyRegion.html?region="+region.region_list[i].region+"'>"+region.region_list[i].region+"</a>";
-        console.log("region "+region.region_list[0].region);
+          text += "<a class='mdl-navigation__link' href='../FYP/searchbyRegion.html?region=" + region.region_list[i].region +
+            "'>" + region.region_list[i].region + "</a>";
+          console.log("region " + region.region_list[0].region);
+        }
+        document.getElementsByClassName('mdl-navigation')[0].insertAdjacentHTML('beforeend', text);
       }
-      document.getElementsByClassName('mdl-navigation')[0].insertAdjacentHTML('beforeend',text);
-      }
-      
+
       request.send();
     </script>
 
